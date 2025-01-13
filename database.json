@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    654,
-    2,
-    6540482
+    655,
+    0,
+    6551095
   ],
   "Classes": {
     "Accessory": {
@@ -3921,6 +3921,21 @@
             }
           }
         },
+        "Editor": {
+          "Name": "Editor",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "MakeupGain": {
           "Name": "MakeupGain",
           "Scriptability": "ReadWrite",
@@ -4970,6 +4985,21 @@
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
+            }
+          }
+        },
+        "Editor": {
+          "Name": "Editor",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -26284,7 +26314,7 @@
         },
         "Position": {
           "Name": "Position",
-          "Scriptability": "None",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Vector3"
           },
@@ -26297,7 +26327,7 @@
         },
         "Radius": {
           "Name": "Radius",
-          "Scriptability": "None",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Float32"
           },
@@ -47308,7 +47338,7 @@
           "Int32": 21
         },
         "RenderingTestFrameCount": {
-          "Int32": 120
+          "Int32": 20
         },
         "Sandboxed": {
           "Bool": false
@@ -47326,7 +47356,7 @@
           "String": ""
         },
         "Timeout": {
-          "Int32": 10
+          "Int32": 30
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -62848,6 +62878,19 @@
             }
           }
         },
+        "ShouldEmitUpAndDownArrowEvents": {
+          "Name": "ShouldEmitUpAndDownArrowEvents",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "ShowNativeInput": {
           "Name": "ShowNativeInput",
           "Scriptability": "ReadWrite",
@@ -63255,6 +63298,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "ShouldEmitUpAndDownArrowEvents": {
+          "Bool": false
         },
         "ShowNativeInput": {
           "Bool": true
@@ -75100,6 +75146,19 @@
             }
           }
         },
+        "FallHeightEnabled": {
+          "Name": "FallHeightEnabled",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "FallenPartsDestroyHeight": {
           "Name": "FallenPartsDestroyHeight",
           "Scriptability": "ReadWrite",
@@ -75612,6 +75671,9 @@
           "Float64": 0.0
         },
         "ExplicitAutoJoints": {
+          "Bool": true
+        },
+        "FallHeightEnabled": {
           "Bool": true
         },
         "FallenPartsDestroyHeight": {
@@ -76582,6 +76644,12 @@
         "UserCompletedVideo": 2,
         "VideoLoaded": 0,
         "VideoRemoved": 1
+      }
+    },
+    "AdFormat": {
+      "name": "AdFormat",
+      "items": {
+        "RewardedVideo": 0
       }
     },
     "AdShape": {
@@ -78394,6 +78462,7 @@
     "HapticEffectType": {
       "name": "HapticEffectType",
       "items": {
+        "Custom": 0,
         "GameplayCollision": 5,
         "GameplayExplosion": 4,
         "UIClick": 2,
@@ -79714,6 +79783,7 @@
         "PurchaseFailure": 10,
         "Success": 1,
         "Timeout": 3,
+        "TokenInvalid": 12,
         "UGCValidationFailed": 7,
         "UnknownFailure": 11,
         "UploadFailed": 4
@@ -80218,6 +80288,16 @@
         "Hint": 4,
         "Information": 3,
         "Warning": 2
+      }
+    },
+    "ShowAdResult": {
+      "name": "ShowAdResult",
+      "items": {
+        "ExperienceIneligible": 1,
+        "NotShown": 2,
+        "PlayerIneligible": 0,
+        "ShowCompleted": 3,
+        "ShowInterrupted": 4
       }
     },
     "SignalBehavior": {
