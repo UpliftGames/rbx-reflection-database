@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    655,
+    656,
     0,
-    6551095
+    6560679
   ],
   "Classes": {
     "Accessory": {
@@ -23770,23 +23770,8 @@
         "Archivable": {
           "Bool": true
         },
-        "Attributes": {
-          "Attributes": {}
-        },
-        "Capabilities": {
-          "SecurityCapabilities": 0
-        },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
-        },
-        "Sandboxed": {
-          "Bool": false
-        },
-        "SourceAssetId": {
-          "Int64": -1
-        },
-        "Tags": {
-          "Tags": []
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -38945,8 +38930,7 @@
           },
           "Tags": [
             "Hidden",
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -56908,6 +56892,19 @@
             }
           }
         },
+        "AutocompleteAcceptanceBehavior": {
+          "Name": "AutocompleteAcceptanceBehavior",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "CompletionAcceptanceBehavior"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Automatically trigger AI Code Completion": {
           "Name": "Automatically trigger AI Code Completion",
           "Scriptability": "None",
@@ -58700,6 +58697,23 @@
             "Value": "Ref"
           },
           "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "TypeColor": {
+          "Name": "TypeColor",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Color3"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
           "Kind": {
             "Canonical": {
               "Serialization": "DoesNotSerialize"
@@ -77529,6 +77543,15 @@
         "Studio": 2
       }
     },
+    "CompletionAcceptanceBehavior": {
+      "name": "CompletionAcceptanceBehavior",
+      "items": {
+        "Insert": 0,
+        "InsertOnEnterReplaceOnTab": 3,
+        "Replace": 1,
+        "ReplaceOnEnterInsertOnTab": 2
+      }
+    },
     "CompletionItemKind": {
       "name": "CompletionItemKind",
       "items": {
@@ -80428,10 +80451,10 @@
     "StudioScriptEditorColorCategories": {
       "name": "StudioScriptEditorColorCategories",
       "items": {
-        "AICOOverlayButtonBackground": 42,
-        "AICOOverlayButtonBackgroundHover": 43,
-        "AICOOverlayButtonBackgroundPressed": 44,
-        "AICOOverlayText": 41,
+        "AICOOverlayButtonBackground": 43,
+        "AICOOverlayButtonBackgroundHover": 44,
+        "AICOOverlayButtonBackgroundPressed": 45,
+        "AICOOverlayText": 42,
         "ActiveLine": 27,
         "Background": 17,
         "Bool": 10,
@@ -80441,26 +80464,26 @@
         "DebuggerCurrentLine": 28,
         "DebuggerErrorLine": 29,
         "Default": 0,
-        "DocViewCodeBackground": 40,
+        "DocViewCodeBackground": 41,
         "Error": 23,
         "FindSelectionBackground": 20,
         "Function": 11,
         "FunctionName": 15,
         "Hint": 25,
-        "IndentationRuler": 45,
+        "IndentationRuler": 46,
         "Info": 24,
         "Keyword": 5,
         "Local": 12,
         "LuauKeyword": 14,
         "MatchingWordBackground": 21,
-        "MenuBackground": 35,
-        "MenuBorder": 39,
-        "MenuPrimaryText": 32,
-        "MenuScrollbarBackground": 37,
-        "MenuScrollbarHandle": 38,
-        "MenuSecondaryText": 33,
-        "MenuSelectedBackground": 36,
-        "MenuSelectedText": 34,
+        "MenuBackground": 36,
+        "MenuBorder": 40,
+        "MenuPrimaryText": 33,
+        "MenuScrollbarBackground": 38,
+        "MenuScrollbarHandle": 39,
+        "MenuSecondaryText": 34,
+        "MenuSelectedBackground": 37,
+        "MenuSelectedText": 35,
         "Method": 7,
         "Nil": 9,
         "Number": 2,
@@ -80472,6 +80495,7 @@
         "Self": 13,
         "String": 3,
         "TODO": 16,
+        "Type": 32,
         "Warning": 22,
         "Whitespace": 26
       }
