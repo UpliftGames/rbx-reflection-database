@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    656,
+    657,
     0,
-    6560679
+    6570603
   ],
   "Classes": {
     "Accessory": {
@@ -23770,8 +23770,23 @@
         "Archivable": {
           "Bool": true
         },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "Tags": {
+          "Tags": []
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -32863,6 +32878,44 @@
           "Tags": [
             "Hidden",
             "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "LiveSyncService": {
+      "Name": "LiveSyncService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "HasSyncedInstances": {
+          "Name": "HasSyncedInstances",
+          "Scriptability": "Read",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
           ],
           "Kind": {
             "Canonical": {
@@ -64363,6 +64416,22 @@
               "Serialization": "DoesNotSerialize"
             }
           }
+        },
+        "Verified": {
+          "Name": "Verified",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -64542,6 +64611,19 @@
               "Serialization": "Serializes"
             }
           }
+        },
+        "HasSeenDeprecationDialog": {
+          "Name": "HasSeenDeprecationDialog",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -64568,6 +64650,9 @@
         },
         "CreateDefaultTextChannels": {
           "Bool": true
+        },
+        "HasSeenDeprecationDialog": {
+          "Bool": false
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -70093,6 +70178,7 @@
       "Name": "UserGameSettings",
       "Tags": [
         "NotCreatable",
+        "NotReplicated",
         "UserSettings"
       ],
       "Superclass": "Instance",
@@ -76649,6 +76735,18 @@
         "Servo": 2
       }
     },
+    "AdAvailabilityResult": {
+      "name": "AdAvailabilityResult",
+      "items": {
+        "DeviceIneligible": 2,
+        "ExperienceIneligible": 3,
+        "InternalError": 4,
+        "IsAvailable": 1,
+        "NoFill": 5,
+        "PlayerIneligible": 6,
+        "PublisherIneligible": 7
+      }
+    },
     "AdEventType": {
       "name": "AdEventType",
       "items": {
@@ -77194,6 +77292,14 @@
         "X": 0,
         "Y": 1,
         "Z": 2
+      }
+    },
+    "BenefitType": {
+      "name": "BenefitType",
+      "items": {
+        "AvatarAsset": 1,
+        "AvatarBundle": 2,
+        "DeveloperProduct": 0
       }
     },
     "BinType": {
@@ -80316,11 +80422,11 @@
     "ShowAdResult": {
       "name": "ShowAdResult",
       "items": {
-        "ExperienceIneligible": 1,
-        "NotShown": 2,
-        "PlayerIneligible": 0,
-        "ShowCompleted": 3,
-        "ShowInterrupted": 4
+        "AdAlreadyShowing": 3,
+        "AdNotReady": 2,
+        "InternalError": 4,
+        "ShowCompleted": 1,
+        "ShowInterrupted": 5
       }
     },
     "SignalBehavior": {
