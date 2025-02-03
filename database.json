@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    657,
+    658,
     0,
-    6570603
+    6580461
   ],
   "Classes": {
     "Accessory": {
@@ -11070,6 +11070,27 @@
         }
       }
     },
+    "BugReporterService": {
+      "Name": "BugReporterService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "BulkImportService": {
       "Name": "BulkImportService",
       "Tags": [
@@ -12324,6 +12345,22 @@
             }
           }
         },
+        "IsAutoMigrated": {
+          "Name": "IsAutoMigrated",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "LoadDefaultChat": {
           "Name": "LoadDefaultChat",
           "Scriptability": "Read",
@@ -12353,6 +12390,9 @@
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "IsAutoMigrated": {
+          "Bool": false
         },
         "LoadDefaultChat": {
           "Bool": true
@@ -55738,8 +55778,7 @@
             "Enum": "GameAvatarType"
           },
           "Tags": [
-            "Hidden",
-            "NotReplicated"
+            "Hidden"
           ],
           "Kind": {
             "Canonical": {
@@ -79881,6 +79920,13 @@
         "AllGames": 2,
         "AllowedGames": 1,
         "AvatarShop": 0
+      }
+    },
+    "ProductPurchaseChannel": {
+      "name": "ProductPurchaseChannel",
+      "items": {
+        "ExperienceDetailsPage": 2,
+        "InExperience": 1
       }
     },
     "ProductPurchaseDecision": {
