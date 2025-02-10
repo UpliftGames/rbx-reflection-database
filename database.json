@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    658,
+    659,
     0,
-    6580461
+    6590474
   ],
   "Classes": {
     "Accessory": {
@@ -3761,6 +3761,19 @@
               "Serialization": "Serializes"
             }
           }
+        },
+        "WindowSize": {
+          "Name": "WindowSize",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "AudioWindowSize"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -3790,6 +3803,9 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "WindowSize": {
+          "Enum": 1
         }
       }
     },
@@ -5213,6 +5229,19 @@
               "Serialization": "Serializes"
             }
           }
+        },
+        "WindowSize": {
+          "Name": "WindowSize",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "AudioWindowSize"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -5245,6 +5274,9 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "WindowSize": {
+          "Enum": 1
         }
       }
     },
@@ -5255,17 +5287,14 @@
       "Properties": {
         "Asset": {
           "Name": "Asset",
-          "Scriptability": "None",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Content"
           },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
+          "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": "DoesNotSerialize"
+              "Serialization": "Serializes"
             }
           }
         },
@@ -5275,10 +5304,14 @@
           "DataType": {
             "Value": "String"
           },
-          "Tags": [],
+          "Tags": [
+            "Deprecated",
+            "Hidden",
+            "NotReplicated"
+          ],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -5423,8 +5456,8 @@
         "Archivable": {
           "Bool": true
         },
-        "AssetId": {
-          "String": ""
+        "Asset": {
+          "Content": ""
         },
         "Attributes": {
           "Attributes": {}
@@ -53776,6 +53809,19 @@
             }
           }
         },
+        "CharacterSoundsUseNewApi": {
+          "Name": "CharacterSoundsUseNewApi",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "RolloutState"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "DefaultListenerLocation": {
           "Name": "DefaultListenerLocation",
           "Scriptability": "ReadWrite",
@@ -53869,6 +53915,9 @@
         },
         "Capabilities": {
           "SecurityCapabilities": 0
+        },
+        "CharacterSoundsUseNewApi": {
+          "Enum": 0
         },
         "DefaultListenerLocation": {
           "Enum": 0
@@ -56976,6 +57025,19 @@
           "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Int32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "AutoResumeSyncOnPlaceOpen": {
+          "Name": "AutoResumeSyncOnPlaceOpen",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
           },
           "Tags": [],
           "Kind": {
@@ -64657,7 +64719,10 @@
           "DataType": {
             "Value": "Bool"
           },
-          "Tags": [],
+          "Tags": [
+            "Hidden",
+            "NotReplicated"
+          ],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -79925,6 +79990,8 @@
     "ProductPurchaseChannel": {
       "name": "ProductPurchaseChannel",
       "items": {
+        "AdReward": 3,
+        "CommerceProduct": 4,
         "ExperienceDetailsPage": 2,
         "InExperience": 1
       }
