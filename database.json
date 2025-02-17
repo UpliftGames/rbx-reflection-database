@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    659,
+    660,
     0,
-    6590474
+    6600648
   ],
   "Classes": {
     "Accessory": {
@@ -3809,6 +3809,108 @@
         }
       }
     },
+    "AudioChannelMixer": {
+      "Name": "AudioChannelMixer",
+      "Tags": [
+        "NotBrowsable"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "Layout": {
+          "Name": "Layout",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "AudioChannelLayout"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Layout": {
+          "Enum": 1
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "Tags": {
+          "Tags": []
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "AudioChannelSplitter": {
+      "Name": "AudioChannelSplitter",
+      "Tags": [
+        "NotBrowsable"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "Layout": {
+          "Name": "Layout",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "AudioChannelLayout"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Layout": {
+          "Enum": 1
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "Tags": {
+          "Tags": []
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "AudioChorus": {
       "Name": "AudioChorus",
       "Tags": [],
@@ -5898,7 +6000,21 @@
         "Service"
       ],
       "Superclass": "Instance",
-      "Properties": {},
+      "Properties": {
+        "RollbackEnabled": {
+          "Name": "RollbackEnabled",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
       "DefaultProperties": {
         "Archivable": {
           "Bool": true
@@ -53809,6 +53925,21 @@
             }
           }
         },
+        "AudioApiByDefault": {
+          "Name": "AudioApiByDefault",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "RolloutState"
+          },
+          "Tags": [
+            "Hidden"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "CharacterSoundsUseNewApi": {
           "Name": "CharacterSoundsUseNewApi",
           "Scriptability": "ReadWrite",
@@ -53855,6 +53986,21 @@
             "Value": "Float32"
           },
           "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "IsNewExpForAudioApiByDefault": {
+          "Name": "IsNewExpForAudioApiByDefault",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden"
+          ],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -53913,6 +54059,9 @@
         "Attributes": {
           "Attributes": {}
         },
+        "AudioApiByDefault": {
+          "Enum": 0
+        },
         "Capabilities": {
           "SecurityCapabilities": 0
         },
@@ -53930,6 +54079,9 @@
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "IsNewExpForAudioApiByDefault": {
+          "Bool": false
         },
         "RespectFilteringEnabled": {
           "Bool": false
@@ -59170,6 +59322,27 @@
         }
       }
     },
+    "StudioCameraService": {
+      "Name": "StudioCameraService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "StudioData": {
       "Name": "StudioData",
       "Tags": [
@@ -62573,10 +62746,13 @@
           "DataType": {
             "Value": "Bool"
           },
-          "Tags": [],
+          "Tags": [
+            "Deprecated",
+            "NotReplicated"
+          ],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -62648,6 +62824,19 @@
             }
           }
         },
+        "ThrottlePhysicsToRealtime": {
+          "Name": "ThrottlePhysicsToRealtime",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Timeout": {
           "Name": "Timeout",
           "Scriptability": "ReadWrite",
@@ -62700,9 +62889,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "Is30FpsThrottleEnabled": {
-          "Bool": true
-        },
         "IsPhysicsEnvironmentalThrottled": {
           "Bool": true
         },
@@ -62723,6 +62909,9 @@
         },
         "Tags": {
           "Tags": []
+        },
+        "ThrottlePhysicsToRealtime": {
+          "Bool": true
         },
         "Timeout": {
           "Float64": 10.0
@@ -70085,6 +70274,26 @@
         }
       }
     },
+    "UniqueIdLookupService": {
+      "Name": "UniqueIdLookupService",
+      "Tags": [
+        "NotCreatable",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "UniversalConstraint": {
       "Name": "UniversalConstraint",
       "Tags": [],
@@ -77223,6 +77432,18 @@
         "Enabled": 2
       }
     },
+    "AudioChannelLayout": {
+      "name": "AudioChannelLayout",
+      "items": {
+        "Mono": 0,
+        "Quad": 2,
+        "Stereo": 1,
+        "Surround_5": 3,
+        "Surround_5_1": 4,
+        "Surround_7_1": 5,
+        "Surround_7_1_4": 6
+      }
+    },
     "AudioFilterType": {
       "name": "AudioFilterType",
       "items": {
@@ -77878,6 +78099,7 @@
         "NetworkSend": 297,
         "NetworkTimeout": 298,
         "OK": 0,
+        "PhantomFreeze": 303,
         "PlacelaunchCreatorBan": 600,
         "PlacelaunchCustomMessage": 610,
         "PlacelaunchDisabled": 515,
