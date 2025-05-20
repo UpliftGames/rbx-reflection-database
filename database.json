@@ -21119,7 +21119,12 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": {
+                "Migrate": {
+                  "To": "TextureContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
             }
           }
         },
@@ -21195,8 +21200,8 @@
         "Tags": {
           "Tags": []
         },
-        "Texture": {
-          "ContentId": ""
+        "TextureContent": {
+          "Content": "None"
         },
         "Transparency": {
           "Float32": 0.0
@@ -35687,7 +35692,12 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": {
+                "Migrate": {
+                  "To": "HoverImageContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
             }
           }
         },
@@ -35812,7 +35822,12 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": {
+                "Migrate": {
+                  "To": "PressedImageContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
             }
           }
         },
@@ -35955,8 +35970,8 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "HoverImage": {
-          "ContentId": ""
+        "HoverImageContent": {
+          "Content": "None"
         },
         "ImageColor3": {
           "Color3": [
@@ -36004,8 +36019,8 @@
             ]
           ]
         },
-        "PressedImage": {
-          "ContentId": ""
+        "PressedImageContent": {
+          "Content": "None"
         },
         "ResampleMode": {
           "Enum": 0
@@ -37296,7 +37311,7 @@
         },
         "Capabilities": {
           "Name": "Capabilities",
-          "Scriptability": "ReadWrite",
+          "Scriptability": "None",
           "DataType": {
             "Value": "SecurityCapabilities"
           },
@@ -39026,9 +39041,6 @@
               "Float32": 0.0
             },
             "RBX_LightingCompatibilityMigrated": {
-              "Bool": true
-            },
-            "RBX_LightingTechnologyUnifiedMigration": {
               "Bool": true
             },
             "RBX_OriginalTechnologyOnFileLoad": {
@@ -50993,19 +51005,19 @@
           "SecurityCapabilities": 0
         },
         "CustomPoliciesEnabled": {
-          "Bool": true
+          "Bool": false
         },
         "EmulatedCountryCode": {
-          "String": "US"
+          "String": ""
         },
         "EmulatedGameLocale": {
-          "String": "en-us"
+          "String": ""
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
         "PlayerEmulationEnabled": {
-          "Bool": true
+          "Bool": false
         },
         "PseudolocalizationEnabled": {
           "Bool": false
@@ -51014,7 +51026,7 @@
           "Bool": false
         },
         "SerializedEmulatedPolicyInfo": {
-          "BinaryString": "CAAAAB0AAABBbGxvd2VkRXh0ZXJuYWxMaW5rUmVmZXJlbmNlcwcGAAAAAgcAAABEaXNjb3JkAgcAAABZb3VUdWJlAgYAAABUd2l0Y2gCCAAAAEZhY2Vib29rAgEAAABYAgcAAABHdWlsZGVkDQAAAEFyZUFkc0FsbG93ZWQDARwAAABBcmVQYWlkUmFuZG9tSXRlbXNSZXN0cmljdGVkAwEXAAAASXNDb250ZW50U2hhcmluZ0FsbG93ZWQDACMAAABJc0VsaWdpYmxlVG9QdXJjaGFzZUNvbW1lcmNlUHJvZHVjdAMBIAAAAElzRWxpZ2libGVUb1B1cmNoYXNlU3Vic2NyaXB0aW9uAwEYAAAASXNQYWlkSXRlbVRyYWRpbmdBbGxvd2VkAwEYAAAASXNTdWJqZWN0VG9DaGluYVBvbGljaWVzAwA="
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -67728,7 +67740,12 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": {
+                "Migrate": {
+                  "To": "ColorMapContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
             }
           }
         },
@@ -67756,7 +67773,12 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": {
+                "Migrate": {
+                  "To": "MetalnessMapContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
             }
           }
         },
@@ -67784,7 +67806,12 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": {
+                "Migrate": {
+                  "To": "NormalMapContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
             }
           }
         },
@@ -67812,7 +67839,12 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": {
+                "Migrate": {
+                  "To": "RoughnessMapContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
             }
           }
         },
@@ -67865,20 +67897,20 @@
             1.0
           ]
         },
-        "ColorMap": {
-          "ContentId": ""
+        "ColorMapContent": {
+          "Content": "None"
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "MetalnessMap": {
-          "ContentId": ""
+        "MetalnessMapContent": {
+          "Content": "None"
         },
-        "NormalMap": {
-          "ContentId": ""
+        "NormalMapContent": {
+          "Content": "None"
         },
-        "RoughnessMap": {
-          "ContentId": ""
+        "RoughnessMapContent": {
+          "Content": "None"
         },
         "Sandboxed": {
           "Bool": false
@@ -73346,8 +73378,8 @@
         "Tags": {
           "Tags": []
         },
-        "Texture": {
-          "ContentId": ""
+        "TextureContent": {
+          "Content": "None"
         },
         "Transparency": {
           "Float32": 0.0
