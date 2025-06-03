@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    674,
-    0,
-    6740785
+    675,
+    1,
+    6750723
   ],
   "Classes": {
     "Accessory": {
@@ -46734,13 +46734,14 @@
             }
           }
         },
-        "ManifoldMesh": {
-          "Name": "ManifoldMesh",
+        "ManifoldMesh_DEPRECATED": {
+          "Name": "ManifoldMesh_DEPRECATED",
           "Scriptability": "None",
           "DataType": {
             "Value": "SharedString"
           },
           "Tags": [
+            "Deprecated",
             "Hidden",
             "NotReplicated",
             "NotScriptable"
@@ -60028,6 +60029,26 @@
         }
       }
     },
+    "SlimContentProvider": {
+      "Name": "SlimContentProvider",
+      "Tags": [
+        "NotCreatable",
+        "Service"
+      ],
+      "Superclass": "CacheableContentProvider",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "Smoke": {
       "Name": "Smoke",
       "Tags": [],
@@ -70039,6 +70060,36 @@
         }
       }
     },
+    "TerrainIterateOperation": {
+      "Name": "TerrainIterateOperation",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated"
+      ],
+      "Superclass": "Object",
+      "Properties": {},
+      "DefaultProperties": {}
+    },
+    "TerrainModifyOperation": {
+      "Name": "TerrainModifyOperation",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated"
+      ],
+      "Superclass": "Object",
+      "Properties": {},
+      "DefaultProperties": {}
+    },
+    "TerrainReadOperation": {
+      "Name": "TerrainReadOperation",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated"
+      ],
+      "Superclass": "Object",
+      "Properties": {},
+      "DefaultProperties": {}
+    },
     "TerrainRegion": {
       "Name": "TerrainRegion",
       "Tags": [],
@@ -70188,6 +70239,16 @@
           "UniqueId": "00000000000000000000000000000000"
         }
       }
+    },
+    "TerrainWriteOperation": {
+      "Name": "TerrainWriteOperation",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated"
+      ],
+      "Superclass": "Object",
+      "Properties": {},
+      "DefaultProperties": {}
     },
     "TestService": {
       "Name": "TestService",
@@ -79333,6 +79394,22 @@
             }
           }
         },
+        "PreferredInput": {
+          "Name": "PreferredInput",
+          "Scriptability": "Read",
+          "DataType": {
+            "Enum": "PreferredInput"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "RightBarSize": {
           "Name": "RightBarSize",
           "Scriptability": "None",
@@ -86520,6 +86597,7 @@
         "GraphicsMeshParts": 10,
         "GraphicsParticles": 11,
         "GraphicsParts": 12,
+        "GraphicsSlimModels": 25,
         "GraphicsSolidModels": 8,
         "GraphicsSpatialHash": 13,
         "GraphicsTerrain": 14,
@@ -88458,6 +88536,14 @@
       "items": {
         "OneAttachment": 0,
         "TwoAttachment": 1
+      }
+    },
+    "PreferredInput": {
+      "name": "PreferredInput",
+      "items": {
+        "Gamepad": 1,
+        "KeyboardAndMouse": 0,
+        "Touch": 2
       }
     },
     "PreferredTextSize": {
