@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    675,
-    1,
-    6750723
+    676,
+    0,
+    6760531
   ],
   "Classes": {
     "Accessory": {
@@ -6438,6 +6438,22 @@
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
+            }
+          }
+        },
+        "MaxFrequency": {
+          "Name": "MaxFrequency",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
             }
           }
         }
@@ -36649,6 +36665,57 @@
       ],
       "Superclass": "Instance",
       "Properties": {
+        "BoolState": {
+          "Name": "BoolState",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated",
+            "NotScriptable",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "Direction1DState": {
+          "Name": "Direction1DState",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [
+            "NotReplicated",
+            "NotScriptable",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "Direction2DState": {
+          "Name": "Direction2DState",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Vector2"
+          },
+          "Tags": [
+            "NotReplicated",
+            "NotScriptable",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "Enabled": {
           "Name": "Enabled",
           "Scriptability": "ReadWrite",
@@ -40514,6 +40581,37 @@
           "UniqueId": "00000000000000000000000000000000"
         }
       }
+    },
+    "MLService": {
+      "Name": "MLService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "MLSession": {
+      "Name": "MLSession",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated"
+      ],
+      "Superclass": "Object",
+      "Properties": {},
+      "DefaultProperties": {}
     },
     "ManualGlue": {
       "Name": "ManualGlue",
@@ -69332,21 +69430,6 @@
             }
           }
         },
-        "ShorelinesUpgraded": {
-          "Name": "ShorelinesUpgraded",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
         "SmoothGrid": {
           "Name": "SmoothGrid",
           "Scriptability": "None",
@@ -69755,9 +69838,6 @@
         },
         "Sandboxed": {
           "Bool": false
-        },
-        "ShorelinesUpgraded": {
-          "Bool": true
         },
         "Size": {
           "Vector3": [
@@ -72505,6 +72585,22 @@
               "Serialization": "Serializes"
             }
           }
+        },
+        "isLegacyChatDisabled": {
+          "Name": "isLegacyChatDisabled",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -72549,6 +72645,9 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "isLegacyChatDisabled": {
+          "Bool": false
         }
       }
     },
@@ -90204,6 +90303,15 @@
     },
     "VideoCaptureResult": {
       "name": "VideoCaptureResult",
+      "items": {
+        "OtherError": 1,
+        "ScreenSizeChanged": 2,
+        "Success": 0,
+        "TimeLimitReached": 3
+      }
+    },
+    "VideoCaptureStartedResult": {
+      "name": "VideoCaptureStartedResult",
       "items": {
         "CapturingAlready": 2,
         "NoDeviceSupport": 3,
