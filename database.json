@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    676,
-    0,
-    6760531
+    677,
+    1,
+    6770764
   ],
   "Classes": {
     "Accessory": {
@@ -6098,6 +6098,89 @@
         }
       }
     },
+    "AudioSpeechToText": {
+      "Name": "AudioSpeechToText",
+      "Tags": [
+        "NotBrowsable"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "Enabled": {
+          "Name": "Enabled",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Text": {
+          "Name": "Text",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "String"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "VoiceDetected": {
+          "Name": "VoiceDetected",
+          "Scriptability": "Read",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "Enabled": {
+          "Bool": false
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "Tags": {
+          "Tags": []
+        },
+        "Text": {
+          "String": ""
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "AudioTextToSpeech": {
       "Name": "AudioTextToSpeech",
       "Tags": [
@@ -6313,6 +6396,23 @@
       ],
       "Superclass": "LuaSourceContainer",
       "Properties": {
+        "AuroraScriptBindingsSerialize": {
+          "Name": "AuroraScriptBindingsSerialize",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "BinaryString"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "EnableCulling": {
           "Name": "EnableCulling",
           "Scriptability": "ReadWrite",
@@ -6430,6 +6530,19 @@
         },
         "FrameId": {
           "Name": "FrameId",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "LODLevel": {
+          "Name": "LODLevel",
           "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Int32"
@@ -36716,6 +36829,23 @@
             }
           }
         },
+        "Direction3DState": {
+          "Name": "Direction3DState",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Vector3"
+          },
+          "Tags": [
+            "NotReplicated",
+            "NotScriptable",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "Enabled": {
           "Name": "Enabled",
           "Scriptability": "ReadWrite",
@@ -36783,8 +36913,34 @@
       ],
       "Superclass": "Instance",
       "Properties": {
+        "Backward": {
+          "Name": "Backward",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "KeyCode"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Down": {
           "Name": "Down",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "KeyCode"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Forward": {
+          "Name": "Forward",
           "Scriptability": "ReadWrite",
           "DataType": {
             "Enum": "KeyCode"
@@ -36921,10 +37077,16 @@
         "Attributes": {
           "Attributes": {}
         },
+        "Backward": {
+          "Enum": 0
+        },
         "Capabilities": {
           "SecurityCapabilities": 0
         },
         "Down": {
+          "Enum": 0
+        },
+        "Forward": {
           "Enum": 0
         },
         "HistoryId": {
@@ -43846,6 +44008,27 @@
         },
         "WorldPivotData": {
           "OptionalCFrame": null
+        }
+      }
+    },
+    "Moderation": {
+      "Name": "Moderation",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
         }
       }
     },
@@ -57463,6 +57646,24 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
+              "Serialization": {
+                "Migrate": {
+                  "To": "BottomImageContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
+            }
+          }
+        },
+        "BottomImageContent": {
+          "Name": "BottomImageContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
               "Serialization": "Serializes"
             }
           }
@@ -57575,6 +57776,24 @@
           "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "ContentId"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": {
+                "Migrate": {
+                  "To": "MidImageContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
+            }
+          }
+        },
+        "MidImageContent": {
+          "Name": "MidImageContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
           },
           "Tags": [],
           "Kind": {
@@ -57705,6 +57924,24 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
+              "Serialization": {
+                "Migrate": {
+                  "To": "TopImageContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
+            }
+          }
+        },
+        "TopImageContent": {
+          "Name": "TopImageContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
               "Serialization": "Serializes"
             }
           }
@@ -57801,8 +58038,10 @@
         "BorderSizePixel": {
           "Int32": 1
         },
-        "BottomImage": {
-          "ContentId": "rbxasset://textures/ui/Scroll/scroll-bottom.png"
+        "BottomImageContent": {
+          "Content": {
+            "Uri": "rbxasset://textures/ui/Scroll/scroll-bottom.png"
+          }
         },
         "CanvasPosition": {
           "Vector2": [
@@ -57846,8 +58085,10 @@
         "LayoutOrder": {
           "Int32": 0
         },
-        "MidImage": {
-          "ContentId": "rbxasset://textures/ui/Scroll/scroll-middle.png"
+        "MidImageContent": {
+          "Content": {
+            "Uri": "rbxasset://textures/ui/Scroll/scroll-middle.png"
+          }
         },
         "Position": {
           "UDim2": [
@@ -57928,8 +58169,10 @@
         "Tags": {
           "Tags": []
         },
-        "TopImage": {
-          "ContentId": "rbxasset://textures/ui/Scroll/scroll-top.png"
+        "TopImageContent": {
+          "Content": {
+            "Uri": "rbxasset://textures/ui/Scroll/scroll-top.png"
+          }
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -72586,8 +72829,8 @@
             }
           }
         },
-        "isLegacyChatDisabled": {
-          "Name": "isLegacyChatDisabled",
+        "IsLegacyChatDisabled": {
+          "Name": "IsLegacyChatDisabled",
           "Scriptability": "None",
           "DataType": {
             "Value": "Bool"
@@ -72634,6 +72877,9 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
+        "IsLegacyChatDisabled": {
+          "Bool": false
+        },
         "Sandboxed": {
           "Bool": false
         },
@@ -72645,9 +72891,6 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
-        },
-        "isLegacyChatDisabled": {
-          "Bool": false
         }
       }
     },
@@ -73626,7 +73869,24 @@
         "Service"
       ],
       "Superclass": "Instance",
-      "Properties": {},
+      "Properties": {
+        "FriendCommunicationRestrictionStatus": {
+          "Name": "FriendCommunicationRestrictionStatus",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "ChatRestrictionStatus"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        }
+      },
       "DefaultProperties": {
         "Archivable": {
           "Bool": true
@@ -80837,6 +81097,22 @@
       ],
       "Superclass": "Capture",
       "Properties": {
+        "FilePath": {
+          "Name": "FilePath",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "String"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "TimeLength": {
           "Name": "TimeLength",
           "Scriptability": "None",
@@ -84191,6 +84467,21 @@
               "Serialization": "Serializes"
             }
           }
+        },
+        "UseNewLuauTypeSolver": {
+          "Name": "UseNewLuauTypeSolver",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "RolloutState"
+          },
+          "Tags": [
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -84375,6 +84666,9 @@
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
         },
+        "UseNewLuauTypeSolver": {
+          "Enum": 0
+        },
         "WorldPivotData": {
           "OptionalCFrame": null
         }
@@ -84517,7 +84811,24 @@
         "NotCreatable"
       ],
       "Superclass": "Model",
-      "Properties": {},
+      "Properties": {
+        "PhysicsStepTime": {
+          "Name": "PhysicsStepTime",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        }
+      },
       "DefaultProperties": {
         "Archivable": {
           "Bool": true
@@ -87574,7 +87885,8 @@
       "items": {
         "Bool": 0,
         "Direction1D": 1,
-        "Direction2D": 2
+        "Direction2D": 2,
+        "Direction3D": 3
       }
     },
     "InputType": {
@@ -88996,6 +89308,14 @@
       "items": {
         "CameraRelative": 1,
         "MovementRelative": 0
+      }
+    },
+    "RsvpStatus": {
+      "name": "RsvpStatus",
+      "items": {
+        "Going": 1,
+        "None": 0,
+        "NotGoing": 2
       }
     },
     "RtlTextSupport": {
