@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    677,
-    1,
-    6770764
+    678,
+    0,
+    6780751
   ],
   "Classes": {
     "Accessory": {
@@ -7782,7 +7782,7 @@
         "CustomBodyTypeScale": {
           "NumberRange": [
             0.0,
-            100.0
+            1.0
           ]
         },
         "CustomHeadEnabled": {
@@ -7793,20 +7793,20 @@
         },
         "CustomHeadScale": {
           "NumberRange": [
-            95.0,
-            100.0
+            0.95,
+            1.0
           ]
         },
         "CustomHeight": {
           "NumberRange": [
-            6.5,
-            6.5
+            5.5,
+            5.5
           ]
         },
         "CustomHeightScale": {
           "NumberRange": [
-            90.0,
-            105.0
+            0.9,
+            1.05
           ]
         },
         "CustomLeftArmEnabled": {
@@ -7824,7 +7824,7 @@
         "CustomProportionsScale": {
           "NumberRange": [
             0.0,
-            100.0
+            1.0
           ]
         },
         "CustomRightArmEnabled": {
@@ -7847,8 +7847,8 @@
         },
         "CustomWidthScale": {
           "NumberRange": [
-            70.0,
-            100.0
+            0.7,
+            1.0
           ]
         },
         "HistoryId": {
@@ -8491,7 +8491,7 @@
           "Enum": 0
         },
         "LegacyCollisionMode": {
-          "Enum": 0
+          "Enum": 1
         },
         "Sandboxed": {
           "Bool": false
@@ -23534,6 +23534,27 @@
         }
       }
     },
+    "ExperienceStateRecordingService": {
+      "Name": "ExperienceStateRecordingService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "ExplorerFilter": {
       "Name": "ExplorerFilter",
       "Tags": [
@@ -24924,46 +24945,6 @@
     },
     "FeatureRestrictionManager": {
       "Name": "FeatureRestrictionManager",
-      "Tags": [
-        "NotCreatable",
-        "Service"
-      ],
-      "Superclass": "Instance",
-      "Properties": {},
-      "DefaultProperties": {
-        "Archivable": {
-          "Bool": true
-        },
-        "HistoryId": {
-          "UniqueId": "00000000000000000000000000000000"
-        },
-        "UniqueId": {
-          "UniqueId": "00000000000000000000000000000000"
-        }
-      }
-    },
-    "FeedPages": {
-      "Name": "FeedPages",
-      "Tags": [
-        "NotCreatable",
-        "NotReplicated"
-      ],
-      "Superclass": "Pages",
-      "Properties": {},
-      "DefaultProperties": {
-        "Archivable": {
-          "Bool": true
-        },
-        "HistoryId": {
-          "UniqueId": "00000000000000000000000000000000"
-        },
-        "UniqueId": {
-          "UniqueId": "00000000000000000000000000000000"
-        }
-      }
-    },
-    "FeedService": {
-      "Name": "FeedService",
       "Tags": [
         "NotCreatable",
         "Service"
@@ -43901,6 +43882,22 @@
             }
           }
         },
+        "SlimHash": {
+          "Name": "SlimHash",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "BinaryString"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "WorldPivot": {
           "Name": "WorldPivot",
           "Scriptability": "ReadWrite",
@@ -53425,6 +53422,46 @@
         }
       }
     },
+    "RecommendationPages": {
+      "Name": "RecommendationPages",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated"
+      ],
+      "Superclass": "Pages",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "RecommendationService": {
+      "Name": "RecommendationService",
+      "Tags": [
+        "NotCreatable",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "ReflectionMetadata": {
       "Name": "ReflectionMetadata",
       "Tags": [],
@@ -60390,6 +60427,27 @@
         }
       }
     },
+    "SlimService": {
+      "Name": "SlimService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "Smoke": {
       "Name": "Smoke",
       "Tags": [],
@@ -65027,6 +65085,19 @@
           "Scriptability": "None",
           "DataType": {
             "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "CameraSpeedLockDefault": {
+          "Name": "CameraSpeedLockDefault",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
           },
           "Tags": [],
           "Kind": {
@@ -83818,6 +83889,21 @@
             }
           }
         },
+        "AuthorityMode": {
+          "Name": "AuthorityMode",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "AuthorityMode"
+          },
+          "Tags": [
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "AvatarUnificationMode": {
           "Name": "AvatarUnificationMode",
           "Scriptability": "None",
@@ -84086,6 +84172,19 @@
           "Kind": {
             "Canonical": {
               "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "LuauTypeCheckMode": {
+          "Name": "LuauTypeCheckMode",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "LuauTypeCheckMode"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
             }
           }
         },
@@ -84468,6 +84567,21 @@
             }
           }
         },
+        "UseImprovedModelLod": {
+          "Name": "UseImprovedModelLod",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "RolloutState"
+          },
+          "Tags": [
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "UseNewLuauTypeSolver": {
           "Name": "UseNewLuauTypeSolver",
           "Scriptability": "None",
@@ -84496,6 +84610,9 @@
         },
         "Attributes": {
           "Attributes": {}
+        },
+        "AuthorityMode": {
+          "Enum": 1
         },
         "AvatarUnificationMode": {
           "Enum": 0
@@ -84541,6 +84658,9 @@
           "Enum": 0
         },
         "LevelOfDetail": {
+          "Enum": 0
+        },
+        "LuauTypeCheckMode": {
           "Enum": 0
         },
         "MeshPartHeadsAndAccessories": {
@@ -84665,6 +84785,9 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "UseImprovedModelLod": {
+          "Enum": 0
         },
         "UseNewLuauTypeSolver": {
           "Enum": 0
@@ -86012,6 +86135,13 @@
         "Small": 0
       }
     },
+    "AuthorityMode": {
+      "name": "AuthorityMode",
+      "items": {
+        "Automatic": 1,
+        "Server": 0
+      }
+    },
     "AutoIndentRule": {
       "name": "AutoIndentRule",
       "items": {
@@ -87299,16 +87429,6 @@
         "UpperLipSuck": 10
       }
     },
-    "FeedRankingScoreType": {
-      "name": "FeedRankingScoreType",
-      "items": {
-        "Content": 0,
-        "Final": 1,
-        "GameJoin": 2,
-        "Interaction": 3,
-        "Sharing": 4
-      }
-    },
     "FieldOfViewMode": {
       "name": "FieldOfViewMode",
       "items": {
@@ -88356,6 +88476,14 @@
         "ObjectPosition": 2
       }
     },
+    "LuauTypeCheckMode": {
+      "name": "LuauTypeCheckMode",
+      "items": {
+        "NoCheck": 0,
+        "Nonstrict": 1,
+        "Strict": 2
+      }
+    },
     "MarketplaceBulkPurchasePromptStatus": {
       "name": "MarketplaceBulkPurchasePromptStatus",
       "items": {
@@ -89128,6 +89256,31 @@
       "items": {
         "Exclude": 0,
         "Include": 1
+      }
+    },
+    "RecommendationActionType": {
+      "name": "RecommendationActionType",
+      "items": {
+        "AddReaction": 0,
+        "Comment": 4,
+        "Play": 5,
+        "Purchase": 6,
+        "RemoveReaction": 1,
+        "Report": 3,
+        "Share": 2
+      }
+    },
+    "RecommendationImpressionType": {
+      "name": "RecommendationImpressionType",
+      "items": {
+        "View": 0
+      }
+    },
+    "RecommendationItemVisibility": {
+      "name": "RecommendationItemVisibility",
+      "items": {
+        "Private": 0,
+        "Public": 1
       }
     },
     "RejectCharacterDeletions": {
