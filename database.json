@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    678,
+    679,
     0,
-    6780751
+    6790761
   ],
   "Classes": {
     "Accessory": {
@@ -2433,7 +2433,6 @@
             "Value": "Bool"
           },
           "Tags": [
-            "NotBrowsable",
             "NotReplicated",
             "ReadOnly"
           ],
@@ -5469,6 +5468,19 @@
             }
           }
         },
+        "IsMutedForCapture": {
+          "Name": "IsMutedForCapture",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "IsPlaying": {
           "Name": "IsPlaying",
           "Scriptability": "Read",
@@ -5611,6 +5623,9 @@
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "IsMutedForCapture": {
+          "Bool": false
         },
         "LoopRegion": {
           "NumberRange": [
@@ -7509,6 +7524,32 @@
             }
           }
         },
+        "CustomFaceEnabled": {
+          "Name": "CustomFaceEnabled",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "CustomFaceId": {
+          "Name": "CustomFaceId",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "CustomHeadEnabled": {
           "Name": "CustomHeadEnabled",
           "Scriptability": "None",
@@ -7784,6 +7825,12 @@
             0.0,
             1.0
           ]
+        },
+        "CustomFaceEnabled": {
+          "Bool": false
+        },
+        "CustomFaceId": {
+          "Int64": 0
         },
         "CustomHeadEnabled": {
           "Bool": false
@@ -28908,6 +28955,22 @@
               "Serialization": "DoesNotSerialize"
             }
           }
+        },
+        "ViewportSizeInMM": {
+          "Name": "ViewportSizeInMM",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Vector2"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -38105,6 +38168,9 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
+        "InertiaMigrated": {
+          "Bool": false
+        },
         "InitialSize": {
           "Vector3": [
             1.0,
@@ -39165,6 +39231,9 @@
             },
             "RBX_LightingCompatibilityMigrated": {
               "Bool": true
+            },
+            "RBX_LightingTechnologyUnifiedMigration": {
+              "Bool": false
             },
             "RBX_OriginalTechnologyOnFileLoad": {
               "Int32": 2
@@ -41069,26 +41138,6 @@
         "NotCreatable",
         "NotReplicated",
         "Service"
-      ],
-      "Superclass": "Instance",
-      "Properties": {},
-      "DefaultProperties": {
-        "Archivable": {
-          "Bool": true
-        },
-        "HistoryId": {
-          "UniqueId": "00000000000000000000000000000000"
-        },
-        "UniqueId": {
-          "UniqueId": "00000000000000000000000000000000"
-        }
-      }
-    },
-    "MaterialGenerationSession": {
-      "Name": "MaterialGenerationSession",
-      "Tags": [
-        "NotCreatable",
-        "NotReplicated"
       ],
       "Superclass": "Instance",
       "Properties": {},
@@ -43140,6 +43189,9 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
+        "InertiaMigrated": {
+          "Bool": false
+        },
         "InitialSize": {
           "Vector3": [
             0.0,
@@ -43723,6 +43775,27 @@
         }
       }
     },
+    "MicroProfilerService": {
+      "Name": "MicroProfilerService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "Model": {
       "Name": "Model",
       "Tags": [],
@@ -44008,8 +44081,8 @@
         }
       }
     },
-    "Moderation": {
-      "Name": "Moderation",
+    "ModerationService": {
+      "Name": "ModerationService",
       "Tags": [
         "NotCreatable",
         "NotReplicated",
@@ -44928,6 +45001,9 @@
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "InertiaMigrated": {
+          "Bool": false
         },
         "InitialSize": {
           "Vector3": [
@@ -47317,6 +47393,9 @@
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "InertiaMigrated": {
+          "Bool": false
         },
         "InitialSize": {
           "Vector3": [
@@ -59320,6 +59399,26 @@
         }
       }
     },
+    "SessionCheckService": {
+      "Name": "SessionCheckService",
+      "Tags": [
+        "NotCreatable",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "SessionService": {
       "Name": "SessionService",
       "Tags": [
@@ -60883,6 +60982,19 @@
             }
           }
         },
+        "IsMutedForCapture": {
+          "Name": "IsMutedForCapture",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "IsPaused": {
           "Name": "IsPaused",
           "Scriptability": "Read",
@@ -61336,6 +61448,9 @@
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "IsMutedForCapture": {
+          "Bool": false
         },
         "LoopRegion": {
           "NumberRange": [
@@ -71217,6 +71332,22 @@
             }
           }
         },
+        "ShouldEmitTabEvents": {
+          "Name": "ShouldEmitTabEvents",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "ShouldEmitUpAndDownArrowEvents": {
           "Name": "ShouldEmitUpAndDownArrowEvents",
           "Scriptability": "None",
@@ -72907,8 +73038,7 @@
             "Value": "Bool"
           },
           "Tags": [
-            "Hidden",
-            "NotReplicated"
+            "Hidden"
           ],
           "Kind": {
             "Canonical": {
@@ -75392,6 +75522,22 @@
             }
           }
         },
+        "InertiaMigrated": {
+          "Name": "InertiaMigrated",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "MeshSize": {
           "Name": "MeshSize",
           "Scriptability": "Read",
@@ -76091,6 +76237,79 @@
       ],
       "Superclass": "UIComponent",
       "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "UIContainerQuery": {
+      "Name": "UIContainerQuery",
+      "Tags": [
+        "NotBrowsable",
+        "NotReplicated"
+      ],
+      "Superclass": "UIComponent",
+      "Properties": {
+        "Active": {
+          "Name": "Active",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "AspectRatioRange": {
+          "Name": "AspectRatioRange",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "NumberRange"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "MaxSize": {
+          "Name": "MaxSize",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Vector2"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "MinSize": {
+          "Name": "MinSize",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Vector2"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
       "DefaultProperties": {
         "Archivable": {
           "Bool": true
@@ -78124,6 +78343,9 @@
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "InertiaMigrated": {
+          "Bool": false
         },
         "InitialSize": {
           "Vector3": [
@@ -86259,6 +86481,8 @@
     "AvatarSettingsAccessoryLimitMethod": {
       "name": "AvatarSettingsAccessoryLimitMethod",
       "items": {
+        "PreviewRemove": 3,
+        "PreviewScale": 2,
         "Remove": 1,
         "Scale": 0
       }
@@ -87839,6 +88063,7 @@
         "Aborted": 9,
         "ConnectFail": 3,
         "ConnectionClosed": 13,
+        "CreatorEnvironmentsNotSupportedByService": 15,
         "DnsResolve": 2,
         "InvalidRedirect": 7,
         "InvalidUrl": 1,
