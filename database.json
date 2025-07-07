@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    679,
+    680,
     0,
-    6790761
+    6800701
   ],
   "Classes": {
     "Accessory": {
@@ -5126,6 +5126,108 @@
         }
       }
     },
+    "AudioGate": {
+      "Name": "AudioGate",
+      "Tags": [
+        "NotBrowsable"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "Attack": {
+          "Name": "Attack",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Bypass": {
+          "Name": "Bypass",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Release": {
+          "Name": "Release",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Threshold": {
+          "Name": "Threshold",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "NumberRange"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "Attack": {
+          "Float32": 0.01
+        },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "Bypass": {
+          "Bool": false
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Release": {
+          "Float32": 0.1
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "Tags": {
+          "Tags": []
+        },
+        "Threshold": {
+          "NumberRange": [
+            -36.0,
+            -24.0
+          ]
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "AudioLimiter": {
       "Name": "AudioLimiter",
       "Tags": [],
@@ -6198,9 +6300,7 @@
     },
     "AudioTextToSpeech": {
       "Name": "AudioTextToSpeech",
-      "Tags": [
-        "NotBrowsable"
-      ],
+      "Tags": [],
       "Superclass": "Instance",
       "Properties": {
         "IsLoaded": {
@@ -6651,6 +6751,38 @@
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
+            }
+          }
+        },
+        "InputDropRate": {
+          "Name": "InputDropRate",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "RCCHeartbeatFPS": {
+          "Name": "RCCHeartbeatFPS",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float64"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -28956,6 +29088,22 @@
             }
           }
         },
+        "ViewportDisplaySize": {
+          "Name": "ViewportDisplaySize",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "DisplaySize"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "ViewportSizeInMM": {
           "Name": "ViewportSizeInMM",
           "Scriptability": "None",
@@ -37675,8 +37823,7 @@
             "Value": "UniqueId"
           },
           "Tags": [
-            "NotReplicated",
-            "NotScriptable"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -48312,6 +48459,27 @@
         },
         "ZOffset": {
           "Float32": 0.0
+        }
+      }
+    },
+    "PartyEmulatorService": {
+      "Name": "PartyEmulatorService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
         }
       }
     },
@@ -87438,6 +87606,14 @@
         "Neutral": 0
       }
     },
+    "DisplaySize": {
+      "name": "DisplaySize",
+      "items": {
+        "Large": 2,
+        "Medium": 1,
+        "Small": 0
+      }
+    },
     "DominantAxis": {
       "name": "DominantAxis",
       "items": {
@@ -89398,6 +89574,14 @@
         "UGCValidationFailed": 7,
         "UnknownFailure": 11,
         "UploadFailed": 4
+      }
+    },
+    "PromptLinkSharingResult": {
+      "name": "PromptLinkSharingResult",
+      "items": {
+        "InvalidLaunchData": 3,
+        "PlayerLeft": 2,
+        "Success": 1
       }
     },
     "PromptPublishAssetResult": {
