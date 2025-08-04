@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    683,
-    1,
-    6830778
+    684,
+    0,
+    6840690
   ],
   "Classes": {
     "Accessory": {
@@ -14901,7 +14901,72 @@
         "NotReplicated"
       ],
       "Superclass": "Object",
-      "Properties": {},
+      "Properties": {
+        "CaptureType": {
+          "Name": "CaptureType",
+          "Scriptability": "Read",
+          "DataType": {
+            "Enum": "CaptureType"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "LocalId": {
+          "Name": "LocalId",
+          "Scriptability": "Read",
+          "DataType": {
+            "Value": "String"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "SourcePlaceId": {
+          "Name": "SourcePlaceId",
+          "Scriptability": "Read",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "SourceUniverseId": {
+          "Name": "SourceUniverseId",
+          "Scriptability": "Read",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        }
+      },
       "DefaultProperties": {}
     },
     "CaptureService": {
@@ -14911,6 +14976,26 @@
         "Service"
       ],
       "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "CapturesPages": {
+      "Name": "CapturesPages",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated"
+      ],
+      "Superclass": "Pages",
       "Properties": {},
       "DefaultProperties": {
         "Archivable": {
@@ -22846,13 +22931,12 @@
       "Properties": {
         "AlignDraggedObjects": {
           "Name": "AlignDraggedObjects",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Bool"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -22862,13 +22946,12 @@
         },
         "AngleSnapEnabled": {
           "Name": "AngleSnapEnabled",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Bool"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -22878,13 +22961,12 @@
         },
         "AngleSnapIncrement": {
           "Name": "AngleSnapIncrement",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Float32"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -22894,13 +22976,12 @@
         },
         "AnimateHover": {
           "Name": "AnimateHover",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Bool"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -22910,13 +22991,12 @@
         },
         "CollisionsEnabled": {
           "Name": "CollisionsEnabled",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Bool"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -22926,13 +23006,12 @@
         },
         "DraggerCoordinateSpace": {
           "Name": "DraggerCoordinateSpace",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Enum": "DraggerCoordinateSpace"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -22942,13 +23021,12 @@
         },
         "DraggerMovementMode": {
           "Name": "DraggerMovementMode",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Enum": "DraggerMovementMode"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -22958,13 +23036,12 @@
         },
         "GeometrySnapColor": {
           "Name": "GeometrySnapColor",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Color3"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -22974,13 +23051,12 @@
         },
         "HoverAnimateFrequency": {
           "Name": "HoverAnimateFrequency",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Float32"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -22995,9 +23071,7 @@
             "Value": "Int32"
           },
           "Tags": [
-            "Hidden",
-            "NotReplicated",
-            "ReadOnly"
+            "Hidden"
           ],
           "Kind": {
             "Canonical": {
@@ -23007,13 +23081,12 @@
         },
         "HoverThickness": {
           "Name": "HoverThickness",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Float32"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -23023,13 +23096,12 @@
         },
         "JointsEnabled": {
           "Name": "JointsEnabled",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Bool"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -23039,13 +23111,12 @@
         },
         "LinearSnapEnabled": {
           "Name": "LinearSnapEnabled",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Bool"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -23055,13 +23126,12 @@
         },
         "LinearSnapIncrement": {
           "Name": "LinearSnapIncrement",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Float32"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -23076,8 +23146,7 @@
             "Value": "Bool"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -23092,8 +23161,7 @@
             "Value": "Bool"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -23103,13 +23171,12 @@
         },
         "ShowHover": {
           "Name": "ShowHover",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Bool"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -66402,6 +66469,19 @@
             }
           }
         },
+        "LoadInternalPlugins": {
+          "Name": "LoadInternalPlugins",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "LoadUserPluginsInRunModes": {
           "Name": "LoadUserPluginsInRunModes",
           "Scriptability": "None",
@@ -67875,8 +67955,7 @@
           },
           "Tags": [
             "Hidden",
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -78333,6 +78412,32 @@
             }
           }
         },
+        "BorderOffset": {
+          "Name": "BorderOffset",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "UDim"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "BorderStrokePosition": {
+          "Name": "BorderStrokePosition",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "BorderStrokePosition"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Color": {
           "Name": "Color",
           "Scriptability": "ReadWrite",
@@ -78408,6 +78513,15 @@
         },
         "Attributes": {
           "Attributes": {}
+        },
+        "BorderOffset": {
+          "UDim": [
+            0.0,
+            0
+          ]
+        },
+        "BorderStrokePosition": {
+          "Enum": 0
         },
         "Capabilities": {
           "SecurityCapabilities": 0
@@ -81849,7 +81963,7 @@
         },
         "TimeLength": {
           "Name": "TimeLength",
-          "Scriptability": "None",
+          "Scriptability": "Read",
           "DataType": {
             "Value": "Float64"
           },
@@ -83593,6 +83707,21 @@
         },
         "UseNewJoinFlow": {
           "Name": "UseNewJoinFlow",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "UseStreamSwitching": {
+          "Name": "UseStreamSwitching",
           "Scriptability": "None",
           "DataType": {
             "Value": "Bool"
@@ -87111,6 +87240,14 @@
         "Outline": 0
       }
     },
+    "BorderStrokePosition": {
+      "name": "BorderStrokePosition",
+      "items": {
+        "Center": 1,
+        "Inner": 2,
+        "Outer": 0
+      }
+    },
     "BreakReason": {
       "name": "BreakReason",
       "items": {
@@ -87205,11 +87342,17 @@
         "Watch": 2
       }
     },
+    "CaptureGalleryPermission": {
+      "name": "CaptureGalleryPermission",
+      "items": {
+        "ReadAndUpload": 0
+      }
+    },
     "CaptureType": {
       "name": "CaptureType",
       "items": {
-        "Screenshot": 0,
-        "Video": 1
+        "Screenshot": 1,
+        "Video": 2
       }
     },
     "CatalogCategoryFilter": {
@@ -89620,6 +89763,15 @@
         "Enabled": 2
       }
     },
+    "PerformanceOverlayMode": {
+      "name": "PerformanceOverlayMode",
+      "items": {
+        "Decals": 2,
+        "Lights": 3,
+        "Overdraw": 0,
+        "Transparent": 1
+      }
+    },
     "PermissionLevelShown": {
       "name": "PermissionLevelShown",
       "items": {
@@ -89948,6 +90100,13 @@
       "items": {
         "Exclude": 0,
         "Include": 1
+      }
+    },
+    "ReadCapturesFromGalleryResult": {
+      "name": "ReadCapturesFromGalleryResult",
+      "items": {
+        "NeedPermission": 1,
+        "Success": 0
       }
     },
     "RecommendationActionType": {
@@ -91304,6 +91463,16 @@
       "items": {
         "UiMessageError": 0,
         "UiMessageInfo": 1
+      }
+    },
+    "UploadCaptureResult": {
+      "name": "UploadCaptureResult",
+      "items": {
+        "CaptureModerated": 2,
+        "CaptureNotInGallery": 3,
+        "IneligibleCapture": 4,
+        "NeedPermission": 1,
+        "Success": 0
       }
     },
     "UsageContext": {
