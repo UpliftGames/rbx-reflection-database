@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    684,
+    685,
     0,
-    6840690
+    6850796
   ],
   "Classes": {
     "Accessory": {
@@ -23363,6 +23363,7 @@
           },
           "Tags": [
             "Hidden",
+            "NotReplicated",
             "NotScriptable"
           ],
           "Kind": {
@@ -29351,7 +29352,7 @@
         },
         "ViewportDisplaySize": {
           "Name": "ViewportDisplaySize",
-          "Scriptability": "None",
+          "Scriptability": "Read",
           "DataType": {
             "Enum": "DisplaySize"
           },
@@ -30831,6 +30832,27 @@
     },
     "HapticService": {
       "Name": "HapticService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "HarmonyService": {
+      "Name": "HarmonyService",
       "Tags": [
         "NotCreatable",
         "NotReplicated",
@@ -38592,9 +38614,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InertiaMigrated": {
-          "Bool": false
-        },
         "InitialSize": {
           "Vector3": [
             1.0,
@@ -38731,30 +38750,6 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
-        },
-        "UnscaledCofm": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaOffDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolume": {
-          "Float32": null
         },
         "UsePartColor": {
           "Bool": false
@@ -43622,9 +43617,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InertiaMigrated": {
-          "Bool": false
-        },
         "InitialSize": {
           "Vector3": [
             0.0,
@@ -43762,30 +43754,6 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
-        },
-        "UnscaledCofm": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaOffDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolume": {
-          "Float32": null
         },
         "Velocity": {
           "Vector3": [
@@ -45435,9 +45403,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InertiaMigrated": {
-          "Bool": false
-        },
         "InitialSize": {
           "Vector3": [
             1.0,
@@ -45577,30 +45542,6 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
-        },
-        "UnscaledCofm": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaOffDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolume": {
-          "Float32": null
         },
         "UsePartColor": {
           "Bool": false
@@ -47827,9 +47768,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InertiaMigrated": {
-          "Bool": false
-        },
         "InitialSize": {
           "Vector3": [
             1.0,
@@ -47966,30 +47904,6 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
-        },
-        "UnscaledCofm": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaOffDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolume": {
-          "Float32": null
         },
         "UsePartColor": {
           "Bool": false
@@ -53529,6 +53443,19 @@
             }
           }
         },
+        "MaxIndicatorDistance": {
+          "Name": "MaxIndicatorDistance",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "ObjectText": {
           "Name": "ObjectText",
           "Scriptability": "ReadWrite",
@@ -53635,6 +53562,9 @@
         "MaxActivationDistance": {
           "Float32": 10.0
         },
+        "MaxIndicatorDistance": {
+          "Float32": 0.0
+        },
         "ObjectText": {
           "String": ""
         },
@@ -53685,6 +53615,19 @@
             }
           }
         },
+        "MaxIndicatorsVisible": {
+          "Name": "MaxIndicatorsVisible",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "MaxPromptsVisible": {
           "Name": "MaxPromptsVisible",
           "Scriptability": "ReadWrite",
@@ -53714,6 +53657,9 @@
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "MaxIndicatorsVisible": {
+          "Int32": 16
         },
         "MaxPromptsVisible": {
           "Int32": 16
@@ -66238,19 +66184,6 @@
             }
           }
         },
-        "FreeCameraSpeedScroll": {
-          "Name": "FreeCameraSpeedScroll",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
         "Function Name Color": {
           "Name": "Function Name Color",
           "Scriptability": "ReadWrite",
@@ -76038,7 +75971,7 @@
           ],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -76085,7 +76018,7 @@
           ],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -76100,7 +76033,7 @@
           ],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -76115,7 +76048,7 @@
           ],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -76130,7 +76063,7 @@
           ],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": "DoesNotSerialize"
             }
           }
         }
@@ -78477,6 +78410,19 @@
             }
           }
         },
+        "StrokeSizingMode": {
+          "Name": "StrokeSizingMode",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "StrokeSizingMode"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Thickness": {
           "Name": "Thickness",
           "Scriptability": "ReadWrite",
@@ -78495,6 +78441,19 @@
           "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "ZIndex": {
+          "Name": "ZIndex",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Int32"
           },
           "Tags": [],
           "Kind": {
@@ -78548,6 +78507,9 @@
         "SourceAssetId": {
           "Int64": -1
         },
+        "StrokeSizingMode": {
+          "Enum": 0
+        },
         "Tags": {
           "Tags": []
         },
@@ -78559,6 +78521,9 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "ZIndex": {
+          "Int32": 1
         }
       }
     },
@@ -78883,9 +78848,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InertiaMigrated": {
-          "Bool": false
-        },
         "InitialSize": {
           "Vector3": [
             1.0,
@@ -79022,30 +78984,6 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
-        },
-        "UnscaledCofm": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolInertiaOffDiags": {
-          "Vector3": [
-            null,
-            null,
-            null
-          ]
-        },
-        "UnscaledVolume": {
-          "Float32": null
         },
         "UsePartColor": {
           "Bool": false
@@ -82548,9 +82486,7 @@
           "DataType": {
             "Value": "Content"
           },
-          "Tags": [
-            "Hidden"
-          ],
+          "Tags": [],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -84687,9 +84623,7 @@
           "DataType": {
             "Enum": "AuthorityMode"
           },
-          "Tags": [
-            "NotScriptable"
-          ],
+          "Tags": [],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -87978,7 +87912,6 @@
       "items": {
         "Console": 0,
         "Desktop": 3,
-        "Handheld": 5,
         "Phone": 1,
         "Tablet": 2,
         "VR": 4
@@ -89798,6 +89731,14 @@
         "Fixed": 1
       }
     },
+    "PlacePublishType": {
+      "name": "PlacePublishType",
+      "items": {
+        "None": 0,
+        "Publish": 1,
+        "Save": 2
+      }
+    },
     "Platform": {
       "name": "Platform",
       "items": {
@@ -90684,6 +90625,13 @@
         "ClientPhysicsPause": 2,
         "Default": 0,
         "Disabled": 1
+      }
+    },
+    "StrokeSizingMode": {
+      "name": "StrokeSizingMode",
+      "items": {
+        "FixedSize": 0,
+        "ScaledSize": 1
       }
     },
     "StudioCloseMode": {
