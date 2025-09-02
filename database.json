@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    688,
-    1,
-    6880864
+    689,
+    0,
+    6890882
   ],
   "Classes": {
     "Accessory": {
@@ -6576,6 +6576,153 @@
         },
         "Volume": {
           "Float32": 1.0
+        }
+      }
+    },
+    "AudioTremolo": {
+      "Name": "AudioTremolo",
+      "Tags": [
+        "NotBrowsable"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "Bypass": {
+          "Name": "Bypass",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Depth": {
+          "Name": "Depth",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Duty": {
+          "Name": "Duty",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Frequency": {
+          "Name": "Frequency",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Shape": {
+          "Name": "Shape",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Skew": {
+          "Name": "Skew",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Square": {
+          "Name": "Square",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "Bypass": {
+          "Bool": false
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "Depth": {
+          "Float32": 1.0
+        },
+        "Duty": {
+          "Float32": 0.5
+        },
+        "Frequency": {
+          "Float32": 5.0
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "Shape": {
+          "Float32": 0.0
+        },
+        "Skew": {
+          "Float32": 0.0
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "Square": {
+          "Float32": 0.0
+        },
+        "Tags": {
+          "Tags": []
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
         }
       }
     },
@@ -31024,7 +31171,25 @@
           "DataType": {
             "Value": "Ref"
           },
-          "Tags": [],
+          "Tags": [
+            "Deprecated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "WaveformData": {
+          "Name": "WaveformData",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "BinaryString"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -31072,6 +31237,9 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "WaveformData": {
+          "BinaryString": ""
         }
       }
     },
@@ -65767,6 +65935,19 @@
             }
           }
         },
+        "AutoUpdateEnabled": {
+          "Name": "AutoUpdateEnabled",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "AutocompleteAcceptanceBehavior": {
           "Name": "AutocompleteAcceptanceBehavior",
           "Scriptability": "None",
@@ -80314,6 +80495,19 @@
             }
           }
         },
+        "PlayerListVisible": {
+          "Name": "PlayerListVisible",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "PlayerNamesEnabled": {
           "Name": "PlayerNamesEnabled",
           "Scriptability": "None",
@@ -85208,6 +85402,19 @@
             }
           }
         },
+        "AirTurbulenceIntensity": {
+          "Name": "AirTurbulenceIntensity",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "AllowThirdPartySales": {
           "Name": "AllowThirdPartySales",
           "Scriptability": "ReadWrite",
@@ -85933,6 +86140,9 @@
       "DefaultProperties": {
         "AirDensity": {
           "Float32": 0.0012
+        },
+        "AirTurbulenceIntensity": {
+          "Float32": 0.0
         },
         "AllowThirdPartySales": {
           "Bool": false
@@ -90214,7 +90424,8 @@
       "items": {
         "All": 1,
         "Avatar": 2,
-        "DynamicHead": 3
+        "DynamicHead": 3,
+        "Shoes": 4
       }
     },
     "OutputLayoutMode": {
@@ -92054,6 +92265,16 @@
       "items": {
         "UiMessageError": 0,
         "UiMessageInfo": 1
+      }
+    },
+    "UpdateState": {
+      "name": "UpdateState",
+      "items": {
+        "UpdateAvailable": 1,
+        "UpdateFailed": 4,
+        "UpdateInProgress": 2,
+        "UpdateNotAvailable": 0,
+        "UpdateReady": 3
       }
     },
     "UploadCaptureResult": {
