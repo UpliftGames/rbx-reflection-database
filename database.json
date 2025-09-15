@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    689,
+    690,
     0,
-    6890882
+    6900721
   ],
   "Classes": {
     "Accessory": {
@@ -21729,6 +21729,41 @@
             }
           }
         },
+        "ColorMap": {
+          "Name": "ColorMap",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "ContentId"
+          },
+          "Tags": [
+            "NotReplicated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": {
+                "Migrate": {
+                  "To": "ColorMapContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
+            }
+          }
+        },
+        "ColorMapContent": {
+          "Name": "ColorMapContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [
+            "NotReplicated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "LocalTransparencyModifier": {
           "Name": "LocalTransparencyModifier",
           "Scriptability": "ReadWrite",
@@ -34634,6 +34669,19 @@
             }
           }
         },
+        "OriginOffset": {
+          "Name": "OriginOffset",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "CFrame"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Pelvis": {
           "Name": "Pelvis",
           "Scriptability": "ReadWrite",
@@ -35811,6 +35859,32 @@
           "Float32": 0.0
         },
         "NeckTposeAdjustment": {
+          "CFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "OriginOffset": {
           "CFrame": {
             "position": [
               0.0,
@@ -40080,16 +40154,25 @@
         },
         "Attributes": {
           "Attributes": {
+            "RBX_BackupBrightness": {
+              "Float32": 1.0
+            },
+            "RBX_BackupExposureCompensation": {
+              "Float32": 0.0
+            },
+            "RBX_LightingCompatibilityMigrated": {
+              "Bool": true
+            },
             "RBX_LightingTechnologyUnifiedMigration": {
               "Bool": true
             },
             "RBX_OriginalTechnologyOnFileLoad": {
-              "Int32": 1
+              "Int32": 2
             }
           }
         },
         "Brightness": {
-          "Float32": 1.0
+          "Float32": 1.9812492
         },
         "Capabilities": {
           "SecurityCapabilities": 0
@@ -57667,6 +57750,22 @@
               "Serialization": "DoesNotSerialize"
             }
           }
+        },
+        "ServerFrame": {
+          "Name": "ServerFrame",
+          "Scriptability": "Read",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -74198,11 +74297,50 @@
       "Tags": [],
       "Superclass": "Instance",
       "Properties": {
+        "Seed": {
+          "Name": "Seed",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "SystemPrompt": {
           "Name": "SystemPrompt",
           "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "String"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Temperature": {
+          "Name": "Temperature",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "TopP": {
+          "Name": "TopP",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
           },
           "Tags": [],
           "Kind": {
@@ -74228,6 +74366,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "Seed": {
+          "Int32": 0
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -74236,6 +74377,12 @@
         },
         "Tags": {
           "Tags": []
+        },
+        "Temperature": {
+          "Float32": 0.7
+        },
+        "TopP": {
+          "Float32": 0.9
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -83423,19 +83570,6 @@
       ],
       "Superclass": "Instance",
       "Properties": {
-        "Asset": {
-          "Name": "Asset",
-          "Scriptability": "ReadWrite",
-          "DataType": {
-            "Value": "ContentId"
-          },
-          "Tags": [],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
         "AutoLoadInStudio": {
           "Name": "AutoLoadInStudio",
           "Scriptability": "None",
@@ -83526,6 +83660,22 @@
             }
           }
         },
+        "PlayingReplicating": {
+          "Name": "PlayingReplicating",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "Resolution": {
           "Name": "Resolution",
           "Scriptability": "Read",
@@ -83602,9 +83752,6 @@
         "Archivable": {
           "Bool": true
         },
-        "Asset": {
-          "ContentId": ""
-        },
         "Attributes": {
           "Attributes": {}
         },
@@ -83634,6 +83781,9 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "VideoContent": {
+          "Content": "None"
         },
         "Volume": {
           "Float32": 1.0
@@ -85432,7 +85582,7 @@
         },
         "AuthorityMode": {
           "Name": "AuthorityMode",
-          "Scriptability": "None",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Enum": "AuthorityMode"
           },
@@ -90704,8 +90854,8 @@
       "name": "PredictionMode",
       "items": {
         "Auto": 0,
-        "Forced": 2,
-        "None": 1
+        "Off": 2,
+        "On": 1
       }
     },
     "PreferredInput": {
