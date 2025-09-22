@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    690,
+    691,
     0,
-    6900721
+    6910867
   ],
   "Classes": {
     "Accessory": {
@@ -40029,13 +40029,11 @@
         },
         "LightingStyle": {
           "Name": "LightingStyle",
-          "Scriptability": "None",
+          "Scriptability": "Read",
           "DataType": {
             "Enum": "LightingStyle"
           },
-          "Tags": [
-            "NotScriptable"
-          ],
+          "Tags": [],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -40072,13 +40070,11 @@
         },
         "PrioritizeLightingQuality": {
           "Name": "PrioritizeLightingQuality",
-          "Scriptability": "None",
+          "Scriptability": "Read",
           "DataType": {
             "Value": "Bool"
           },
-          "Tags": [
-            "NotScriptable"
-          ],
+          "Tags": [],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -62600,6 +62596,19 @@
       ],
       "Superclass": "Instance",
       "Properties": {
+        "AcousticSimulationEnabled": {
+          "Name": "AcousticSimulationEnabled",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "AmbientReverb": {
           "Name": "AmbientReverb",
           "Scriptability": "ReadWrite",
@@ -62751,6 +62760,9 @@
         }
       },
       "DefaultProperties": {
+        "AcousticSimulationEnabled": {
+          "Bool": false
+        },
         "AmbientReverb": {
           "Enum": 0
         },
@@ -67183,6 +67195,19 @@
             }
           }
         },
+        "MaxFindReplaceAllResults": {
+          "Name": "MaxFindReplaceAllResults",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Maximum Output Lines": {
           "Name": "Maximum Output Lines",
           "Scriptability": "ReadWrite",
@@ -67892,32 +67917,6 @@
           "Kind": {
             "Canonical": {
               "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "StudioStreamingMaxRadius": {
-          "Name": "StudioStreamingMaxRadius",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int32"
-          },
-          "Tags": [],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "StudioStreamingMinRadius": {
-          "Name": "StudioStreamingMinRadius",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int32"
-          },
-          "Tags": [],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
             }
           }
         },
@@ -80611,6 +80610,19 @@
             }
           }
         },
+        "PeoplePageLayout": {
+          "Name": "PeoplePageLayout",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "PeoplePageLayout"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "PerformanceStatsVisible": {
           "Name": "PerformanceStatsVisible",
           "Scriptability": "None",
@@ -87299,7 +87311,47 @@
       "Name": "WrapTextureTransfer",
       "Tags": [],
       "Superclass": "Instance",
-      "Properties": {},
+      "Properties": {
+        "ReferenceCageMeshContent": {
+          "Name": "ReferenceCageMeshContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "UVMaxBound": {
+          "Name": "UVMaxBound",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Vector2"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "UVMinBound": {
+          "Name": "UVMinBound",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Vector2"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
       "DefaultProperties": {
         "Archivable": {
           "Bool": true
@@ -87313,6 +87365,9 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
+        "ReferenceCageMeshContent": {
+          "Content": "None"
+        },
         "Sandboxed": {
           "Bool": false
         },
@@ -87321,6 +87376,18 @@
         },
         "Tags": {
           "Tags": []
+        },
+        "UVMaxBound": {
+          "Vector2": [
+            null,
+            null
+          ]
+        },
+        "UVMinBound": {
+          "Vector2": [
+            null,
+            null
+          ]
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -87682,6 +87749,7 @@
       "name": "AppUpdateStatus",
       "items": {
         "Available": 4,
+        "AvailableBetaProgram": 6,
         "AvailableBoundChannel": 5,
         "Failed": 2,
         "NotAvailable": 3,
@@ -88641,6 +88709,7 @@
         "PlayerRemoved": 291,
         "ReplacementReady": 301,
         "ReplicatorTimeout": 290,
+        "ScreentimeLockoutKick": 307,
         "ServerEmpty": 302,
         "ServerShutdown": 288,
         "TeleportErrors": 768,
@@ -90698,6 +90767,13 @@
         "Default": 0,
         "Disabled": 1,
         "Enabled": 2
+      }
+    },
+    "PeoplePageLayout": {
+      "name": "PeoplePageLayout",
+      "items": {
+        "Card": 0,
+        "List": 1
       }
     },
     "PerformanceOverlayMode": {
