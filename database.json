@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    691,
+    692,
     0,
-    6910867
+    6920844
   ],
   "Classes": {
     "Accessory": {
@@ -43060,6 +43060,45 @@
             }
           }
         },
+        "EmissiveMaskContent": {
+          "Name": "EmissiveMaskContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "EmissiveStrength": {
+          "Name": "EmissiveStrength",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "EmissiveTint": {
+          "Name": "EmissiveTint",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Color3"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "MaterialPattern": {
           "Name": "MaterialPattern",
           "Scriptability": "ReadWrite",
@@ -43214,6 +43253,19 @@
         },
         "CustomPhysicalProperties": {
           "PhysicalProperties": "Default"
+        },
+        "EmissiveMaskContent": {
+          "Content": "None"
+        },
+        "EmissiveStrength": {
+          "Float32": 1.0
+        },
+        "EmissiveTint": {
+          "Color3": [
+            1.0,
+            1.0,
+            1.0
+          ]
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -43767,23 +43819,6 @@
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
-            }
-          }
-        },
-        "EditableMeshString": {
-          "Name": "EditableMeshString",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "SharedString"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -48658,6 +48693,32 @@
             }
           }
         },
+        "FlipbookSizeX": {
+          "Name": "FlipbookSizeX",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "FlipbookSizeY": {
+          "Name": "FlipbookSizeY",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "FlipbookStartRandom": {
           "Name": "FlipbookStartRandom",
           "Scriptability": "ReadWrite",
@@ -49055,6 +49116,12 @@
         },
         "FlipbookMode": {
           "Enum": 0
+        },
+        "FlipbookSizeX": {
+          "Int32": 1
+        },
+        "FlipbookSizeY": {
+          "Int32": 1
         },
         "FlipbookStartRandom": {
           "Bool": false
@@ -69350,6 +69417,45 @@
             }
           }
         },
+        "EmissiveMaskContent": {
+          "Name": "EmissiveMaskContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "EmissiveStrength": {
+          "Name": "EmissiveStrength",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "EmissiveTint": {
+          "Name": "EmissiveTint",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Color3"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "MetalnessMap": {
           "Name": "MetalnessMap",
           "Scriptability": "ReadWrite",
@@ -69485,6 +69591,19 @@
         },
         "ColorMapContent": {
           "Content": "None"
+        },
+        "EmissiveMaskContent": {
+          "Content": "None"
+        },
+        "EmissiveStrength": {
+          "Float32": 1.0
+        },
+        "EmissiveTint": {
+          "Color3": [
+            1.0,
+            1.0,
+            1.0
+          ]
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -71474,6 +71593,45 @@
             }
           }
         },
+        "EmissiveMaskContent": {
+          "Name": "EmissiveMaskContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "EmissiveStrength": {
+          "Name": "EmissiveStrength",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "EmissiveTint": {
+          "Name": "EmissiveTint",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Color3"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Face": {
           "Name": "Face",
           "Scriptability": "ReadWrite",
@@ -71635,6 +71793,19 @@
         },
         "ColorMapContent": {
           "Content": "None"
+        },
+        "EmissiveMaskContent": {
+          "Content": "None"
+        },
+        "EmissiveStrength": {
+          "Float32": 1.0
+        },
+        "EmissiveTint": {
+          "Color3": [
+            1.0,
+            1.0,
+            1.0
+          ]
         },
         "Face": {
           "Enum": 1
@@ -90710,6 +90881,7 @@
     "ParticleFlipbookLayout": {
       "name": "ParticleFlipbookLayout",
       "items": {
+        "Custom": 4,
         "Grid2x2": 1,
         "Grid4x4": 2,
         "Grid8x8": 3,
@@ -90929,7 +91101,7 @@
     "PredictionMode": {
       "name": "PredictionMode",
       "items": {
-        "Auto": 0,
+        "Automatic": 0,
         "Off": 2,
         "On": 1
       }
@@ -91007,10 +91179,14 @@
     "PromptCreateAssetResult": {
       "name": "PromptCreateAssetResult",
       "items": {
+        "ModeratedName": 8,
         "NoUserInput": 5,
         "PermissionDenied": 2,
+        "PurchaseFailure": 9,
         "Success": 1,
         "Timeout": 3,
+        "TokenInvalid": 10,
+        "UGCValidationFailed": 7,
         "UnknownFailure": 6,
         "UploadFailed": 4
       }
@@ -92767,6 +92943,20 @@
         "Joining": 1,
         "JoiningRetry": 2,
         "Leaving": 4
+      }
+    },
+    "VoiceClientLeaveReasons": {
+      "name": "VoiceClientLeaveReasons",
+      "items": {
+        "ClientNetworkDisconnected": 1,
+        "ClientShutdown": 3,
+        "ImguiDebugLeave": 7,
+        "LuaInitiated": 8,
+        "PlayerLeft": 2,
+        "PublishFailed": 4,
+        "RejoinReceived": 5,
+        "Unknown": 0,
+        "VoiceReboot": 6
       }
     },
     "VoiceControlPath": {
