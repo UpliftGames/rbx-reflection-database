@@ -62695,12 +62695,7 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": {
-                "Migrate": {
-                  "To": "AudioContent",
-                  "Migration": "ContentIdToContent"
-                }
-              }
+              "Serialization": "Serializes"
             }
           }
         },
@@ -62841,9 +62836,6 @@
         "Attributes": {
           "Attributes": {}
         },
-        "AudioContent": {
-          "Content": "None"
-        },
         "Capabilities": {
           "SecurityCapabilities": 0
         },
@@ -62891,6 +62883,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SoundId": {
+          "ContentId": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -74790,7 +74785,7 @@
           "SecurityCapabilities": 0
         },
         "ChatTranslationFTUXShown": {
-          "Bool": true
+          "Bool": false
         },
         "ChatTranslationToggleEnabled": {
           "Bool": false
