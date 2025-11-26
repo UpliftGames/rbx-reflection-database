@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    699,
-    532,
-    6991506
+    700,
+    0,
+    7000935
   ],
   "Classes": {
     "Accessory": {
@@ -27767,25 +27767,12 @@
           "DataType": {
             "Value": "Bool"
           },
-          "Tags": [],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "VideoRecording": {
-          "Name": "VideoRecording",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
           "Tags": [
-            "NotReplicated"
+            "Deprecated"
           ],
           "Kind": {
             "Canonical": {
-              "Serialization": "DoesNotSerialize"
+              "Serialization": "Serializes"
             }
           }
         }
@@ -54657,6 +54644,158 @@
         }
       }
     },
+    "PyramidHandleAdornment": {
+      "Name": "PyramidHandleAdornment",
+      "Tags": [],
+      "Superclass": "HandleAdornment",
+      "Properties": {
+        "Height": {
+          "Name": "Height",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Shading": {
+          "Name": "Shading",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "AdornShading"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Sides": {
+          "Name": "Sides",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Size": {
+          "Name": "Size",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "AdornCullingMode": {
+          "Enum": 0
+        },
+        "AlwaysOnTop": {
+          "Bool": false
+        },
+        "Archivable": {
+          "Bool": true
+        },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "Color3": {
+          "Color3": [
+            0.050980393,
+            0.4117647,
+            0.6745098
+          ]
+        },
+        "Height": {
+          "Float32": 2.0
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "Shading": {
+          "Enum": 0
+        },
+        "Sides": {
+          "Int32": 4
+        },
+        "Size": {
+          "Float32": 1.0
+        },
+        "SizeRelativeOffset": {
+          "Vector3": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "Tags": {
+          "Tags": []
+        },
+        "Transparency": {
+          "Float32": 0.0
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Visible": {
+          "Bool": true
+        },
+        "ZIndex": {
+          "Int32": -1
+        }
+      }
+    },
     "QWidgetPluginGui": {
       "Name": "QWidgetPluginGui",
       "Tags": [
@@ -58161,22 +58300,6 @@
           "Scriptability": "Read",
           "DataType": {
             "Value": "Int64"
-          },
-          "Tags": [
-            "NotReplicated",
-            "ReadOnly"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "PredictionState": {
-          "Name": "PredictionState",
-          "Scriptability": "Read",
-          "DataType": {
-            "Enum": "PredictionState"
           },
           "Tags": [
             "NotReplicated",
@@ -64881,6 +65004,19 @@
             }
           }
         },
+        "CharacterBreakJointsOnDeath": {
+          "Name": "CharacterBreakJointsOnDeath",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "CharacterJumpHeight": {
           "Name": "CharacterJumpHeight",
           "Scriptability": "ReadWrite",
@@ -65404,9 +65540,7 @@
           "DataType": {
             "Enum": "CharacterControlMode"
           },
-          "Tags": [
-            "NotBrowsable"
-          ],
+          "Tags": [],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -65420,21 +65554,6 @@
             "Value": "Float32"
           },
           "Tags": [],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "RagdollDeath": {
-          "Name": "RagdollDeath",
-          "Scriptability": "ReadWrite",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "NotBrowsable"
-          ],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -65482,6 +65601,9 @@
         },
         "Capabilities": {
           "SecurityCapabilities": 0
+        },
+        "CharacterBreakJointsOnDeath": {
+          "Bool": true
         },
         "CharacterJumpHeight": {
           "Float32": 7.2
@@ -65608,9 +65730,6 @@
         },
         "NameDisplayDistance": {
           "Float32": 100.0
-        },
-        "RagdollDeath": {
-          "Bool": true
         },
         "Sandboxed": {
           "Bool": false
@@ -69296,6 +69415,27 @@
           }
         }
       },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "StudioTestService": {
+      "Name": "StudioTestService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
       "DefaultProperties": {
         "Archivable": {
           "Bool": true
@@ -76036,6 +76176,22 @@
           "Scriptability": "None",
           "DataType": {
             "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "VoiceChatRestrictionStatus": {
+          "Name": "VoiceChatRestrictionStatus",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "ChatRestrictionStatus"
           },
           "Tags": [
             "NotReplicated",
@@ -87316,7 +87472,7 @@
           "UniqueId": "00000000000000000000000000000000"
         },
         "UseNewLuauTypeSolver": {
-          "Enum": 0
+          "Enum": 2
         },
         "WorldPivotData": {
           "OptionalCFrame": null
@@ -88494,6 +88650,14 @@
         "OnceAndHold": 2,
         "OnceAndReset": 3,
         "PingPong": 1
+      }
+    },
+    "AnimationNodeTransitionType": {
+      "name": "AnimationNodeTransitionType",
+      "items": {
+        "CrossFade": 0,
+        "DeadBlend": 2,
+        "InertialBlend": 1
       }
     },
     "AnimationNodeType": {
@@ -89732,9 +89896,17 @@
         "GetVersionAsync": 7,
         "ListAsync": 6,
         "OnUpdate": 5,
+        "OrderedList": 15,
+        "OrderedRead": 13,
+        "OrderedRemove": 16,
+        "OrderedWrite": 14,
         "RemoveVersionAsync": 8,
         "SetIncrementAsync": 1,
         "SetIncrementSortedAsync": 4,
+        "StandardList": 11,
+        "StandardRead": 9,
+        "StandardRemove": 12,
+        "StandardWrite": 10,
         "UpdateAsync": 2
       }
     },
@@ -90509,6 +90681,15 @@
         "Quality": 2
       }
     },
+    "GroupMembershipStatus": {
+      "name": "GroupMembershipStatus",
+      "items": {
+        "AlreadyMember": 3,
+        "JoinRequestPending": 2,
+        "Joined": 1,
+        "None": 0
+      }
+    },
     "GuiState": {
       "name": "GuiState",
       "items": {
@@ -91273,9 +91454,10 @@
     "LuauTypeCheckMode": {
       "name": "LuauTypeCheckMode",
       "items": {
-        "NoCheck": 0,
-        "Nonstrict": 1,
-        "Strict": 2
+        "Default": 0,
+        "NoCheck": 1,
+        "Nonstrict": 2,
+        "Strict": 3
       }
     },
     "MarketplaceBulkPurchasePromptStatus": {
@@ -91947,13 +92129,12 @@
         "On": 1
       }
     },
-    "PredictionState": {
-      "name": "PredictionState",
+    "PredictionStatus": {
+      "name": "PredictionStatus",
       "items": {
-        "Idle": 0,
-        "Resimulating": 3,
-        "RollingBack": 2,
-        "Simulating": 1
+        "Authoritative": 0,
+        "None": 2,
+        "Predicted": 1
       }
     },
     "PreferredInput": {
@@ -92353,8 +92534,9 @@
     "RigType": {
       "name": "RigType",
       "items": {
-        "Custom": 1,
-        "None": 2,
+        "Custom": 2,
+        "CustomHumanoid": 1,
+        "None": 3,
         "R15": 0
       }
     },
@@ -92446,7 +92628,8 @@
       "items": {
         "All": 1,
         "Collectibles": 2,
-        "Premium": 3
+        "Premium": 3,
+        "TimedOptions": 4
       }
     },
     "SandboxedInstanceMode": {
