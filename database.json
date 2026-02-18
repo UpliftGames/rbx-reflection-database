@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    708,
+    709,
     0,
-    7080878
+    7090870
   ],
   "Classes": {
     "Accessory": {
@@ -5827,7 +5827,9 @@
           "DataType": {
             "Value": "Content"
           },
-          "Tags": [],
+          "Tags": [
+            "Hidden"
+          ],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -15931,6 +15933,19 @@
       "Tags": [],
       "Superclass": "CharacterAppearance",
       "Properties": {
+        "BaseTextureContent": {
+          "Name": "BaseTextureContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "BaseTextureId": {
           "Name": "BaseTextureId",
           "Scriptability": "ReadWrite",
@@ -15957,11 +15972,37 @@
             }
           }
         },
+        "MeshContent": {
+          "Name": "MeshContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "MeshId": {
           "Name": "MeshId",
           "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Int64"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "OverlayTextureContent": {
+          "Name": "OverlayTextureContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
           },
           "Tags": [],
           "Kind": {
@@ -34266,6 +34307,19 @@
             }
           }
         },
+        "StaticFacialAnimation": {
+          "Name": "StaticFacialAnimation",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "SwimAnimation": {
           "Name": "SwimAnimation",
           "Scriptability": "ReadWrite",
@@ -34433,6 +34487,9 @@
         },
         "SourceAssetId": {
           "Int64": -1
+        },
+        "StaticFacialAnimation": {
+          "Bool": false
         },
         "SwimAnimation": {
           "Int64": 0
@@ -38437,6 +38494,19 @@
             }
           }
         },
+        "ClampMagnitudeToOne": {
+          "Name": "ClampMagnitudeToOne",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Down": {
           "Name": "Down",
           "Scriptability": "ReadWrite",
@@ -38658,6 +38728,9 @@
         },
         "Capabilities": {
           "SecurityCapabilities": 0
+        },
+        "ClampMagnitudeToOne": {
+          "Bool": true
         },
         "Down": {
           "Enum": 0
@@ -47257,6 +47330,57 @@
             }
           }
         },
+        "InboundNetworkLossPercent": {
+          "Name": "InboundNetworkLossPercent",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "InboundNetworkMaxDelayMs": {
+          "Name": "InboundNetworkMaxDelayMs",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "InboundNetworkMinDelayMs": {
+          "Name": "InboundNetworkMinDelayMs",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "IncomingReplicationLag": {
           "Name": "IncomingReplicationLag",
           "Scriptability": "ReadWrite",
@@ -47270,8 +47394,76 @@
             }
           }
         },
+        "NetworkEmulationEnabled": {
+          "Name": "NetworkEmulationEnabled",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "OpenCertManagerDialog": {
           "Name": "OpenCertManagerDialog",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "OutboundNetworkLossPercent": {
+          "Name": "OutboundNetworkLossPercent",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "OutboundNetworkMaxDelayMs": {
+          "Name": "OutboundNetworkMaxDelayMs",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int32"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "OutboundNetworkMinDelayMs": {
+          "Name": "OutboundNetworkMinDelayMs",
           "Scriptability": "None",
           "DataType": {
             "Value": "Int32"
@@ -64287,13 +64479,28 @@
       "Tags": [],
       "Superclass": "Instance",
       "Properties": {
+        "AcousticSimulationEnabled": {
+          "Name": "AcousticSimulationEnabled",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "AudioContent": {
           "Name": "AudioContent",
           "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Content"
           },
-          "Tags": [],
+          "Tags": [
+            "Hidden"
+          ],
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
@@ -64806,6 +65013,9 @@
         }
       },
       "DefaultProperties": {
+        "AcousticSimulationEnabled": {
+          "Bool": true
+        },
         "Archivable": {
           "Bool": true
         },
@@ -68631,6 +68841,19 @@
             }
           }
         },
+        "CameraNavigationModel": {
+          "Name": "CameraNavigationModel",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "CameraNavigationModel"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "CameraOrbitSensitivity": {
           "Name": "CameraOrbitSensitivity",
           "Scriptability": "None",
@@ -70821,9 +71044,22 @@
       ],
       "Superclass": "Instance",
       "Properties": {
+        "FocusDistance": {
+          "Name": "FocusDistance",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "LockCameraSpeed": {
           "Name": "LockCameraSpeed",
-          "Scriptability": "ReadWrite",
+          "Scriptability": "None",
           "DataType": {
             "Value": "Bool"
           },
@@ -70836,7 +71072,7 @@
         },
         "LoggingEnabled": {
           "Name": "LoggingEnabled",
-          "Scriptability": "ReadWrite",
+          "Scriptability": "None",
           "DataType": {
             "Value": "Bool"
           },
@@ -71809,6 +72045,22 @@
             }
           }
         },
+        "PropertyTransitionsSerialize": {
+          "Name": "PropertyTransitionsSerialize",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "BinaryString"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Selector": {
           "Name": "Selector",
           "Scriptability": "ReadWrite",
@@ -71857,6 +72109,9 @@
         },
         "PropertiesSerialize": {
           "Attributes": {}
+        },
+        "PropertyTransitionsSerialize": {
+          "BinaryString": ""
         },
         "Sandboxed": {
           "Bool": false
@@ -76653,6 +76908,21 @@
             }
           }
         },
+        "ForModeration": {
+          "Name": "ForModeration",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "MessageId": {
           "Name": "MessageId",
           "Scriptability": "ReadWrite",
@@ -79615,7 +79885,6 @@
           },
           "Tags": [
             "Hidden",
-            "NotReplicated",
             "NotScriptable"
           ],
           "Kind": {
@@ -86745,7 +87014,8 @@
     "VideoSampler": {
       "Name": "VideoSampler",
       "Tags": [
-        "NotCreatable"
+        "NotCreatable",
+        "NotReplicated"
       ],
       "Superclass": "Object",
       "Properties": {
@@ -91552,6 +91822,13 @@
       "items": {
         "Classic": 0,
         "LockFirstPerson": 1
+      }
+    },
+    "CameraNavigationModel": {
+      "name": "CameraNavigationModel",
+      "items": {
+        "IndustryCompatible": 1,
+        "Roblox": 0
       }
     },
     "CameraPanMode": {
