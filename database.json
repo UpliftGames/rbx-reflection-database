@@ -43180,7 +43180,7 @@
           }
         },
         "Brightness": {
-          "Float32": 1.9812492
+          "Float32": 1.0
         },
         "Capabilities": {
           "SecurityCapabilities": 0
@@ -43233,9 +43233,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "LightingStyle": {
-          "Enum": 1
-        },
         "OutdoorAmbient": {
           "Color3": [
             0.5,
@@ -43245,9 +43242,6 @@
         },
         "Outlines": {
           "Bool": true
-        },
-        "PrioritizeLightingQuality": {
-          "Bool": false
         },
         "Sandboxed": {
           "Bool": false
@@ -43260,9 +43254,6 @@
         },
         "Tags": {
           "Tags": []
-        },
-        "Technology": {
-          "Enum": 1
         },
         "TimeOfDay": {
           "String": "14:00:00"
@@ -67759,7 +67750,12 @@
           "Tags": [],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": {
+                "Migrate": {
+                  "To": "AudioContent",
+                  "Migration": "ContentIdToContent"
+                }
+              }
             }
           }
         },
@@ -67903,6 +67899,9 @@
         "Attributes": {
           "Attributes": {}
         },
+        "AudioContent": {
+          "Content": "None"
+        },
         "Capabilities": {
           "SecurityCapabilities": 0
         },
@@ -67947,9 +67946,6 @@
         },
         "Sandboxed": {
           "Bool": false
-        },
-        "SoundId": {
-          "ContentId": ""
         },
         "SourceAssetId": {
           "Int64": -1
