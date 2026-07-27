@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    730,
+    731,
     0,
-    7300790
+    7310942
   ],
   "Classes": {
     "Accessory": {
@@ -2744,6 +2744,102 @@
             }
           }
         },
+        "AnimationId10": {
+          "Name": "AnimationId10",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "AnimationId11": {
+          "Name": "AnimationId11",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "AnimationId12": {
+          "Name": "AnimationId12",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "AnimationId13": {
+          "Name": "AnimationId13",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "AnimationId14": {
+          "Name": "AnimationId14",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "AnimationId15": {
+          "Name": "AnimationId15",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "AnimationId2": {
           "Name": "AnimationId2",
           "Scriptability": "None",
@@ -2840,6 +2936,38 @@
             }
           }
         },
+        "AnimationId8": {
+          "Name": "AnimationId8",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "AnimationId9": {
+          "Name": "AnimationId9",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "EvaluationThrottled": {
           "Name": "EvaluationThrottled",
           "Scriptability": "Read",
@@ -2849,518 +2977,6 @@
           "Tags": [
             "NotReplicated",
             "ReadOnly"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "FadeTime0": {
-          "Name": "FadeTime0",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "FadeTime1": {
-          "Name": "FadeTime1",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "FadeTime2": {
-          "Name": "FadeTime2",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "FadeTime3": {
-          "Name": "FadeTime3",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "FadeTime4": {
-          "Name": "FadeTime4",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "FadeTime5": {
-          "Name": "FadeTime5",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "FadeTime6": {
-          "Name": "FadeTime6",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "FadeTime7": {
-          "Name": "FadeTime7",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "IsPlaying0": {
-          "Name": "IsPlaying0",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "IsPlaying1": {
-          "Name": "IsPlaying1",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "IsPlaying2": {
-          "Name": "IsPlaying2",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "IsPlaying3": {
-          "Name": "IsPlaying3",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "IsPlaying4": {
-          "Name": "IsPlaying4",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "IsPlaying5": {
-          "Name": "IsPlaying5",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "IsPlaying6": {
-          "Name": "IsPlaying6",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "IsPlaying7": {
-          "Name": "IsPlaying7",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Looped0": {
-          "Name": "Looped0",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Looped1": {
-          "Name": "Looped1",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Looped2": {
-          "Name": "Looped2",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Looped3": {
-          "Name": "Looped3",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Looped4": {
-          "Name": "Looped4",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Looped5": {
-          "Name": "Looped5",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Looped6": {
-          "Name": "Looped6",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Looped7": {
-          "Name": "Looped7",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Bool"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "PlaybackSpeed0": {
-          "Name": "PlaybackSpeed0",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "PlaybackSpeed1": {
-          "Name": "PlaybackSpeed1",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "PlaybackSpeed2": {
-          "Name": "PlaybackSpeed2",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "PlaybackSpeed3": {
-          "Name": "PlaybackSpeed3",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "PlaybackSpeed4": {
-          "Name": "PlaybackSpeed4",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "PlaybackSpeed5": {
-          "Name": "PlaybackSpeed5",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "PlaybackSpeed6": {
-          "Name": "PlaybackSpeed6",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "PlaybackSpeed7": {
-          "Name": "PlaybackSpeed7",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
           ],
           "Kind": {
             "Canonical": {
@@ -3378,390 +2994,6 @@
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
-            }
-          }
-        },
-        "Priority0": {
-          "Name": "Priority0",
-          "Scriptability": "None",
-          "DataType": {
-            "Enum": "AnimationPriority"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Priority1": {
-          "Name": "Priority1",
-          "Scriptability": "None",
-          "DataType": {
-            "Enum": "AnimationPriority"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Priority2": {
-          "Name": "Priority2",
-          "Scriptability": "None",
-          "DataType": {
-            "Enum": "AnimationPriority"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Priority3": {
-          "Name": "Priority3",
-          "Scriptability": "None",
-          "DataType": {
-            "Enum": "AnimationPriority"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Priority4": {
-          "Name": "Priority4",
-          "Scriptability": "None",
-          "DataType": {
-            "Enum": "AnimationPriority"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Priority5": {
-          "Name": "Priority5",
-          "Scriptability": "None",
-          "DataType": {
-            "Enum": "AnimationPriority"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Priority6": {
-          "Name": "Priority6",
-          "Scriptability": "None",
-          "DataType": {
-            "Enum": "AnimationPriority"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "Priority7": {
-          "Name": "Priority7",
-          "Scriptability": "None",
-          "DataType": {
-            "Enum": "AnimationPriority"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForTimePosition0": {
-          "Name": "RefStepIdForTimePosition0",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForTimePosition1": {
-          "Name": "RefStepIdForTimePosition1",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForTimePosition2": {
-          "Name": "RefStepIdForTimePosition2",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForTimePosition3": {
-          "Name": "RefStepIdForTimePosition3",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForTimePosition4": {
-          "Name": "RefStepIdForTimePosition4",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForTimePosition5": {
-          "Name": "RefStepIdForTimePosition5",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForTimePosition6": {
-          "Name": "RefStepIdForTimePosition6",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForTimePosition7": {
-          "Name": "RefStepIdForTimePosition7",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForWeight0": {
-          "Name": "RefStepIdForWeight0",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForWeight1": {
-          "Name": "RefStepIdForWeight1",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForWeight2": {
-          "Name": "RefStepIdForWeight2",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForWeight3": {
-          "Name": "RefStepIdForWeight3",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForWeight4": {
-          "Name": "RefStepIdForWeight4",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForWeight5": {
-          "Name": "RefStepIdForWeight5",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForWeight6": {
-          "Name": "RefStepIdForWeight6",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "RefStepIdForWeight7": {
-          "Name": "RefStepIdForWeight7",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -3792,134 +3024,6 @@
             "NotBrowsable",
             "NotReplicated",
             "ReadOnly"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "WeightTarget0": {
-          "Name": "WeightTarget0",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "WeightTarget1": {
-          "Name": "WeightTarget1",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "WeightTarget2": {
-          "Name": "WeightTarget2",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "WeightTarget3": {
-          "Name": "WeightTarget3",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "WeightTarget4": {
-          "Name": "WeightTarget4",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "WeightTarget5": {
-          "Name": "WeightTarget5",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "WeightTarget6": {
-          "Name": "WeightTarget6",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "DoesNotSerialize"
-            }
-          }
-        },
-        "WeightTarget7": {
-          "Name": "WeightTarget7",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Float32"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
           ],
           "Kind": {
             "Canonical": {
@@ -6223,6 +5327,32 @@
             }
           }
         },
+        "DistanceAttenuationBounds": {
+          "Name": "DistanceAttenuationBounds",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "NumberRange"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "DistanceAttenuationMode": {
+          "Name": "DistanceAttenuationMode",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Enum": "DistanceAttenuationMode"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "OcclusionEnabled": {
           "Name": "OcclusionEnabled",
           "Scriptability": "ReadWrite",
@@ -6315,6 +5445,15 @@
         },
         "DistanceAttenuation": {
           "BinaryString": "AA=="
+        },
+        "DistanceAttenuationBounds": {
+          "NumberRange": [
+            4.0,
+            10000.0
+          ]
+        },
+        "DistanceAttenuationMode": {
+          "Enum": 0
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -13064,6 +12203,19 @@
             }
           }
         },
+        "HSRContent": {
+          "Name": "HSRContent",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "HSRData": {
           "Name": "HSRData",
           "Scriptability": "None",
@@ -13138,6 +12290,22 @@
           "Kind": {
             "Canonical": {
               "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "TemporaryCageMeshContent": {
+          "Name": "TemporaryCageMeshContent",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
             }
           }
         },
@@ -22352,6 +21520,23 @@
             }
           }
         },
+        "IsPioneerBuild": {
+          "Name": "IsPioneerBuild",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "IsSFFlagsLoaded": {
           "Name": "IsSFFlagsLoaded",
           "Scriptability": "None",
@@ -22392,6 +21577,23 @@
             "Enum": "MatchmakingType"
           },
           "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "PioneerSource": {
+          "Name": "PioneerSource",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "PioneerSource"
+          },
+          "Tags": [
+            "Hidden",
             "NotReplicated",
             "ReadOnly"
           ],
@@ -24330,6 +23532,19 @@
           "Scriptability": "None",
           "DataType": {
             "Value": "ContentId"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "TexturePackContent": {
+          "Name": "TexturePackContent",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Content"
           },
           "Tags": [],
           "Kind": {
@@ -44893,6 +44108,36 @@
         }
       }
     },
+    "LuauExpression": {
+      "Name": "LuauExpression",
+      "Tags": [
+        "NotCreatable"
+      ],
+      "Superclass": "Object",
+      "Properties": {},
+      "DefaultProperties": {}
+    },
+    "LuauExpressionService": {
+      "Name": "LuauExpressionService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "LuauScriptAnalyzerService": {
       "Name": "LuauScriptAnalyzerService",
       "Tags": [
@@ -46555,6 +45800,22 @@
           "Scriptability": "None",
           "DataType": {
             "Value": "ContentId"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "TexturePackContent": {
+          "Name": "TexturePackContent",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Content"
           },
           "Tags": [
             "Hidden",
@@ -53336,6 +52597,38 @@
         }
       }
     },
+    "Path3D": {
+      "Name": "Path3D",
+      "Tags": [],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "Tags": {
+          "Tags": []
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "PathfindingLink": {
       "Name": "PathfindingLink",
       "Tags": [],
@@ -54406,6 +53699,27 @@
           }
         }
       },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "PinShortcutService": {
+      "Name": "PinShortcutService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
       "DefaultProperties": {
         "Archivable": {
           "Bool": true
@@ -55690,6 +55004,22 @@
             }
           }
         },
+        "UserIdModeReplicate": {
+          "Name": "UserIdModeReplicate",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "UserIdMode"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "VRDevice": {
           "Name": "VRDevice",
           "Scriptability": "None",
@@ -55710,6 +55040,22 @@
           "Scriptability": "None",
           "DataType": {
             "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "VoiceChatVolume": {
+          "Name": "VoiceChatVolume",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
           },
           "Tags": [
             "Hidden",
@@ -60773,6 +60119,27 @@
         },
         "Tags": {
           "Tags": []
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "RequestOrchestratorService": {
+      "Name": "RequestOrchestratorService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -76199,6 +75566,19 @@
               "Serialization": "Serializes"
             }
           }
+        },
+        "TexturePackContent": {
+          "Name": "TexturePackContent",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -78423,6 +77803,22 @@
           "Scriptability": "None",
           "DataType": {
             "Value": "ContentId"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "TexturePackContent": {
+          "Name": "TexturePackContent",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Content"
           },
           "Tags": [
             "Hidden",
@@ -93329,6 +92725,27 @@
         }
       }
     },
+    "WindowProtocolService": {
+      "Name": "WindowProtocolService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "Wire": {
       "Name": "Wire",
       "Tags": [],
@@ -95266,6 +94683,22 @@
           "Scriptability": "None",
           "DataType": {
             "Value": "ContentId"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "TemporaryReferenceMeshContent": {
+          "Name": "TemporaryReferenceMeshContent",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Content"
           },
           "Tags": [
             "Hidden",
@@ -97610,6 +97043,16 @@
         "Small": 0
       }
     },
+    "DistanceAttenuationMode": {
+      "name": "DistanceAttenuationMode",
+      "items": {
+        "Custom": 0,
+        "Inverse": 4,
+        "InverseTapered": 1,
+        "Linear": 2,
+        "LinearSquared": 3
+      }
+    },
     "DomainType": {
       "name": "DomainType",
       "items": {
@@ -98651,14 +98094,20 @@
         "Break": 318,
         "ButtonA": 1002,
         "ButtonB": 1003,
+        "ButtonBack": 1052,
+        "ButtonCenter": 1051,
+        "ButtonDown": 1054,
         "ButtonL1": 1005,
         "ButtonL2": 1007,
         "ButtonL3": 1009,
+        "ButtonLeft": 1055,
         "ButtonR1": 1004,
         "ButtonR2": 1006,
         "ButtonR3": 1008,
+        "ButtonRight": 1056,
         "ButtonSelect": 1011,
         "ButtonStart": 1010,
+        "ButtonUp": 1053,
         "ButtonX": 1000,
         "ButtonY": 1001,
         "C": 99,
@@ -98754,6 +98203,7 @@
         "MouseY": 1032,
         "N": 110,
         "Nine": 57,
+        "None": 0,
         "NumLock": 300,
         "O": 111,
         "One": 49,
@@ -98813,7 +98263,6 @@
         "U": 117,
         "Underscore": 95,
         "Undo": 322,
-        "Unknown": 0,
         "Up": 273,
         "V": 118,
         "W": 119,
@@ -98939,6 +98388,12 @@
       "items": {
         "Exclude": 1,
         "Include": 0
+      }
+    },
+    "KnownWindow": {
+      "name": "KnownWindow",
+      "items": {
+        "Main": 0
       }
     },
     "Language": {
@@ -99630,6 +99085,14 @@
         "Fixed": 1
       }
     },
+    "PioneerSource": {
+      "name": "PioneerSource",
+      "items": {
+        "DaveyBazooka": 1,
+        "Oof": 2,
+        "Roblox": 0
+      }
+    },
     "PlaceContentPreference": {
       "name": "PlaceContentPreference",
       "items": {
@@ -99817,6 +99280,7 @@
       "items": {
         "Gamepad": 1,
         "KeyboardAndMouse": 0,
+        "MicroGamepad": 3,
         "Touch": 2
       }
     },
@@ -101492,6 +100956,21 @@
         "Precise": 2
       }
     },
+    "TitleBarControlsPosition": {
+      "name": "TitleBarControlsPosition",
+      "items": {
+        "Left": 1,
+        "Right": 2,
+        "Unknown": 0
+      }
+    },
+    "TitleBarMode": {
+      "name": "TitleBarMode",
+      "items": {
+        "Custom": 1,
+        "Native": 0
+      }
+    },
     "TonemapperPreset": {
       "name": "TonemapperPreset",
       "items": {
@@ -101738,6 +101217,22 @@
         "Preview": 1
       }
     },
+    "UserAcquisitionSource": {
+      "name": "UserAcquisitionSource",
+      "items": {
+        "Ads": 8,
+        "ContinueToPlay": 3,
+        "Curation": 4,
+        "Friends": 5,
+        "HomeOther": 9,
+        "HomeRecommendation": 2,
+        "Other": 10,
+        "PendingAttribution": 1,
+        "Search": 6,
+        "Teleport": 7,
+        "Unknown": 0
+      }
+    },
     "UserCFrame": {
       "name": "UserCFrame",
       "items": {
@@ -101745,6 +101240,14 @@
         "Head": 0,
         "LeftHand": 1,
         "RightHand": 2
+      }
+    },
+    "UserIdMode": {
+      "name": "UserIdMode",
+      "items": {
+        "Domain": 2,
+        "Global": 1,
+        "Invalid": 0
       }
     },
     "UserInputState": {
@@ -101781,6 +101284,14 @@
         "None": 22,
         "TextInput": 20,
         "Touch": 7
+      }
+    },
+    "UserReturnStatus": {
+      "name": "UserReturnStatus",
+      "items": {
+        "New": 1,
+        "Returning": 2,
+        "Unknown": 0
       }
     },
     "VRComfortSetting": {
@@ -102107,6 +101618,14 @@
       "items": {
         "AllUsers": 0,
         "NoOne": 1
+      }
+    },
+    "WindowState": {
+      "name": "WindowState",
+      "items": {
+        "Maximized": 2,
+        "Minimized": 1,
+        "Normal": 0
       }
     },
     "WrapLayerAutoSkin": {
