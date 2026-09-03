@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    736,
+    737,
     0,
-    7361346
+    7371584
   ],
   "Classes": {
     "Accessory": {
@@ -15972,6 +15972,27 @@
         }
       }
     },
+    "CallingService": {
+      "Name": "CallingService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "CalloutService": {
       "Name": "CalloutService",
       "Tags": [
@@ -16425,9 +16446,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -16472,6 +16490,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 0
         },
         "Size": {
           "UDim2": [
@@ -19778,6 +19799,73 @@
         }
       }
     },
+    "ControlState": {
+      "Name": "ControlState",
+      "Tags": [
+        "NotBrowsable"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "Owner": {
+          "Name": "Owner",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Ref"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "StateSchema": {
+          "Name": "StateSchema",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "BinaryString"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "StateSchema": {
+          "BinaryString": ""
+        },
+        "Tags": {
+          "Tags": []
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
     "Controller": {
       "Name": "Controller",
       "Tags": [
@@ -21708,6 +21796,7 @@
             "Value": "Bool"
           },
           "Tags": [
+            "Deprecated",
             "Hidden",
             "NotReplicated",
             "ReadOnly"
@@ -21774,6 +21863,7 @@
             "Enum": "PioneerSource"
           },
           "Tags": [
+            "Deprecated",
             "Hidden",
             "NotReplicated",
             "ReadOnly"
@@ -30390,9 +30480,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -30437,6 +30524,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 0
         },
         "Size": {
           "UDim2": [
@@ -32389,10 +32479,12 @@
           "DataType": {
             "Enum": "InputSink"
           },
-          "Tags": [],
+          "Tags": [
+            "NotReplicated"
+          ],
           "Kind": {
             "Canonical": {
-              "Serialization": "Serializes"
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -32633,6 +32725,22 @@
           "Kind": {
             "Canonical": {
               "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "Sink": {
+          "Name": "Sink",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "InputSink"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
             }
           }
         },
@@ -39336,9 +39444,6 @@
         "ImageTransparency": {
           "Float32": 0.0
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -39398,6 +39503,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 1
         },
         "Size": {
           "UDim2": [
@@ -39889,9 +39997,6 @@
         "ImageTransparency": {
           "Float32": 0.0
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -39942,6 +40047,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 0
         },
         "Size": {
           "UDim2": [
@@ -40568,9 +40676,6 @@
         "ImageTransparency": {
           "Float32": 0.0
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -40615,6 +40720,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 0
         },
         "Size": {
           "UDim2": [
@@ -56134,73 +56242,6 @@
         }
       }
     },
-    "PlayerControlState": {
-      "Name": "PlayerControlState",
-      "Tags": [
-        "NotBrowsable"
-      ],
-      "Superclass": "Instance",
-      "Properties": {
-        "Owner": {
-          "Name": "Owner",
-          "Scriptability": "ReadWrite",
-          "DataType": {
-            "Value": "Ref"
-          },
-          "Tags": [],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "StateSchema": {
-          "Name": "StateSchema",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "BinaryString"
-          },
-          "Tags": [
-            "Hidden",
-            "NotScriptable"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        }
-      },
-      "DefaultProperties": {
-        "Archivable": {
-          "Bool": true
-        },
-        "Attributes": {
-          "Attributes": {}
-        },
-        "Capabilities": {
-          "SecurityCapabilities": 0
-        },
-        "HistoryId": {
-          "UniqueId": "00000000000000000000000000000000"
-        },
-        "Sandboxed": {
-          "Bool": false
-        },
-        "SourceAssetId": {
-          "Int64": -1
-        },
-        "StateSchema": {
-          "BinaryString": ""
-        },
-        "Tags": {
-          "Tags": []
-        },
-        "UniqueId": {
-          "UniqueId": "00000000000000000000000000000000"
-        }
-      }
-    },
     "PlayerData": {
       "Name": "PlayerData",
       "Tags": [
@@ -64871,9 +64912,6 @@
         "HorizontalScrollBarInset": {
           "Enum": 0
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -64942,6 +64980,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 0
         },
         "Size": {
           "UDim2": [
@@ -80197,9 +80238,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -80278,6 +80316,9 @@
         },
         "ShowNativeInput": {
           "Bool": true
+        },
+        "Sink": {
+          "Enum": 1
         },
         "Size": {
           "UDim2": [
@@ -80873,9 +80914,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -80944,6 +80982,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 1
         },
         "Size": {
           "UDim2": [
@@ -81080,6 +81121,19 @@
       ],
       "Superclass": "GuiObject",
       "Properties": {
+        "FontFace": {
+          "Name": "FontFace",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Font"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "IsRendering": {
           "Name": "IsRendering",
           "Scriptability": "None",
@@ -81102,6 +81156,19 @@
           "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Ref"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "UseDefaultFont": {
+          "Name": "UseDefaultFont",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
           },
           "Tags": [],
           "Kind": {
@@ -81165,11 +81232,16 @@
         "Draggable": {
           "Bool": false
         },
+        "FontFace": {
+          "Font": {
+            "family": "rbxasset://fonts/families/BuilderSans.json",
+            "weight": "Medium",
+            "style": "Normal",
+            "cachedFaceId": "rbxasset://fonts/BuilderSans-Medium.otf"
+          }
+        },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
-        },
-        "InputSink": {
-          "Enum": 0
         },
         "Interactable": {
           "Bool": true
@@ -81216,6 +81288,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "Sink": {
+          "Enum": 0
+        },
         "Size": {
           "UDim2": [
             [
@@ -81239,6 +81314,9 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "UseDefaultFont": {
+          "Bool": true
         },
         "Visible": {
           "Bool": true
@@ -82638,9 +82716,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -82703,6 +82778,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 0
         },
         "Size": {
           "UDim2": [
@@ -91526,9 +91604,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -91579,6 +91654,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 0
         },
         "Size": {
           "UDim2": [
@@ -91945,9 +92023,6 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -92013,6 +92088,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 0
         },
         "Size": {
           "UDim2": [
@@ -92770,9 +92848,6 @@
         "ImageTransparency": {
           "Float32": 0.0
         },
-        "InputSink": {
-          "Enum": 0
-        },
         "Interactable": {
           "Bool": true
         },
@@ -92831,6 +92906,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "Sink": {
+          "Enum": 0
         },
         "Size": {
           "UDim2": [
@@ -95224,6 +95302,21 @@
             }
           }
         },
+        "UseInputSink": {
+          "Name": "UseInputSink",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "RolloutState"
+          },
+          "Tags": [
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "UseNewLuauTypeSolver": {
           "Name": "UseNewLuauTypeSolver",
           "Scriptability": "None",
@@ -95290,6 +95383,9 @@
         "AuthorityMode": {
           "Enum": 1
         },
+        "AutoSimulate": {
+          "Bool": true
+        },
         "AvatarUnificationMode": {
           "Enum": 0
         },
@@ -95332,6 +95428,13 @@
         },
         "Gravity": {
           "Float32": 196.2
+        },
+        "GravityDirection": {
+          "Vector3": [
+            0.0,
+            -1.0,
+            0.0
+          ]
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -95450,6 +95553,9 @@
         "SignalBehavior": {
           "Enum": 0
         },
+        "SimulationRate": {
+          "Float32": 1.0
+        },
         "SlimHash": {
           "SharedString": ""
         },
@@ -95489,11 +95595,24 @@
         "UseFixedSimulation": {
           "Enum": 0
         },
+        "UseInputSink": {
+          "Enum": 0
+        },
         "UseNewLuauTypeSolver": {
           "Enum": 2
         },
         "ValidateEnabledProximityPrompt": {
           "Enum": 0
+        },
+        "Wind": {
+          "Float32": 0.0
+        },
+        "WindDirection": {
+          "Vector3": [
+            0.0,
+            0.0,
+            0.0
+          ]
         },
         "WorldPivotData": {
           "OptionalCFrame": null
@@ -95574,11 +95693,21 @@
         "Attributes": {
           "Attributes": {}
         },
+        "AutoSimulate": {
+          "Bool": false
+        },
         "Capabilities": {
           "SecurityCapabilities": 0
         },
         "CollisionGroupData": {
           "BinaryString": "AQEABP////8HRGVmYXVsdA=="
+        },
+        "GravityDirection": {
+          "Vector3": [
+            0.0,
+            -1.0,
+            0.0
+          ]
         },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -95634,6 +95763,9 @@
         "Scale": {
           "Float32": 1.0
         },
+        "SimulationRate": {
+          "Float32": 1.0
+        },
         "SlimHash": {
           "SharedString": ""
         },
@@ -95649,6 +95781,16 @@
         "UseWorkspaceCollisionGroups": {
           "Bool": false
         },
+        "Wind": {
+          "Float32": 0.0
+        },
+        "WindDirection": {
+          "Vector3": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
         "WorldPivotData": {
           "OptionalCFrame": null
         }
@@ -95661,6 +95803,21 @@
       ],
       "Superclass": "Model",
       "Properties": {
+        "AutoSimulate": {
+          "Name": "AutoSimulate",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "CollisionGroupData": {
           "Name": "CollisionGroupData",
           "Scriptability": "None",
@@ -95670,6 +95827,21 @@
           "Tags": [
             "Hidden",
             "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "GravityDirection": {
+          "Name": "GravityDirection",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Vector3"
+          },
+          "Tags": [
+            "Hidden"
           ],
           "Kind": {
             "Canonical": {
@@ -95692,6 +95864,51 @@
               "Serialization": "DoesNotSerialize"
             }
           }
+        },
+        "SimulationRate": {
+          "Name": "SimulationRate",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [
+            "Hidden"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "Wind": {
+          "Name": "Wind",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [
+            "Hidden"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
+        "WindDirection": {
+          "Name": "WindDirection",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Vector3"
+          },
+          "Tags": [
+            "Hidden"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -95706,6 +95923,27 @@
         },
         "WorldPivotData": {
           "OptionalCFrame": null
+        }
+      }
+    },
+    "WrapContentProvider": {
+      "Name": "WrapContentProvider",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "CacheableContentProvider",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
         }
       }
     },
@@ -97125,6 +97363,13 @@
         "Parent": 0
       }
     },
+    "AudioSampleFormat": {
+      "name": "AudioSampleFormat",
+      "items": {
+        "Float32": 1,
+        "Int16": 0
+      }
+    },
     "AudioSimulationFidelity": {
       "name": "AudioSimulationFidelity",
       "items": {
@@ -97412,6 +97657,14 @@
         "Z": 2
       }
     },
+    "BasicMeshPartShape": {
+      "name": "BasicMeshPartShape",
+      "items": {
+        "Capsule": 5,
+        "Cone": 6,
+        "RoundedBox": 7
+      }
+    },
     "BenefitType": {
       "name": "BenefitType",
       "items": {
@@ -97477,6 +97730,15 @@
         "Center": 1,
         "Inner": 2,
         "Outer": 0
+      }
+    },
+    "BranchStatus": {
+      "name": "BranchStatus",
+      "items": {
+        "Archived": 3,
+        "Draft": 0,
+        "Merged": 2,
+        "ReadyToMerge": 1
       }
     },
     "BreakReason": {
@@ -100079,6 +100341,23 @@
         "TurboBuildersClub": 2
       }
     },
+    "MergeResolution": {
+      "name": "MergeResolution",
+      "items": {
+        "Manual": 3,
+        "None": 0,
+        "UseSource": 1,
+        "UseTarget": 2
+      }
+    },
+    "MergeStatus": {
+      "name": "MergeStatus",
+      "items": {
+        "Loading": 1,
+        "Merging": 2,
+        "None": 0
+      }
+    },
     "MeshAttribute": {
       "name": "MeshAttribute",
       "items": {
@@ -100840,6 +101119,21 @@
         "UnknownFailure": 7
       }
     },
+    "PromptCreatePlatformContentResult": {
+      "name": "PromptCreatePlatformContentResult",
+      "items": {
+        "ModeratedName": 8,
+        "NoUserInput": 5,
+        "PermissionDenied": 2,
+        "PurchaseFailure": 9,
+        "Success": 1,
+        "Timeout": 3,
+        "TokenInvalid": 10,
+        "UGCValidationFailed": 7,
+        "UnknownFailure": 6,
+        "UploadFailed": 4
+      }
+    },
     "PromptExperienceDetailsResult": {
       "name": "PromptExperienceDetailsResult",
       "items": {
@@ -101452,6 +101746,13 @@
         "ScrollBar": 1
       }
     },
+    "ScrollState": {
+      "name": "ScrollState",
+      "items": {
+        "Idle": 0,
+        "Scrolling": 1
+      }
+    },
     "ScrollingDirection": {
       "name": "ScrollingDirection",
       "items": {
@@ -101624,24 +101925,21 @@
       "name": "SlimTintMode",
       "items": {
         "ContentId": 4,
-        "LOD": 1,
+        "DataModelState": 5,
+        "LevelOfDetail": 1,
         "MeshResourcePtr": 3,
         "Meshes": 2,
         "None": 0,
-        "TranscoderStatus": 6,
-        "Zone": 5
+        "TranscoderStatus": 6
       }
     },
     "SlimTranscoderStatus": {
       "name": "SlimTranscoderStatus",
       "items": {
-        "Failed": 6,
-        "InProgress": 4,
-        "NoHash": 1,
-        "NotUploaded": 2,
-        "Succeeded": 5,
-        "Unknown": 0,
-        "Uploaded": 3
+        "Failed": 3,
+        "Succeeded": 2,
+        "Transcoding": 1,
+        "Unknown": 0
       }
     },
     "SlimViewContext": {
@@ -101650,14 +101948,6 @@
         "Editor": 1,
         "ImGui": 2,
         "Player": 0
-      }
-    },
-    "SolidPrimitiveType": {
-      "name": "SolidPrimitiveType",
-      "items": {
-        "Capsule": 5,
-        "Cone": 6,
-        "RoundedBox": 7
       }
     },
     "SolverConvergenceMetricType": {
@@ -102203,6 +102493,7 @@
     "TeleportMethod": {
       "name": "TeleportMethod",
       "items": {
+        "Teleport": 7,
         "TeleportPartyAsync": 3,
         "TeleportToInstanceBack": 5,
         "TeleportToPlaceInstance": 1,
