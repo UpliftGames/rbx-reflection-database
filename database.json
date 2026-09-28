@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    739,
-    0,
-    7390687
+    740,
+    19,
+    7400003
   ],
   "Classes": {
     "Accessory": {
@@ -7707,6 +7707,19 @@
       "Tags": [],
       "Superclass": "Instance",
       "Properties": {
+        "AutoLocalize": {
+          "Name": "AutoLocalize",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "IsLoaded": {
           "Name": "IsLoaded",
           "Scriptability": "Read",
@@ -7863,6 +7876,9 @@
         },
         "Attributes": {
           "Attributes": {}
+        },
+        "AutoLocalize": {
+          "Bool": true
         },
         "Capabilities": {
           "SecurityCapabilities": 0
@@ -40815,6 +40831,19 @@
             }
           }
         },
+        "DisplayName": {
+          "Name": "DisplayName",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "String"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "Enabled": {
           "Name": "Enabled",
           "Scriptability": "ReadWrite",
@@ -40884,6 +40913,9 @@
         },
         "Capabilities": {
           "SecurityCapabilities": 0
+        },
+        "DisplayName": {
+          "String": ""
         },
         "Enabled": {
           "Bool": true
@@ -43710,7 +43742,7 @@
         },
         "LightingStyle": {
           "Name": "LightingStyle",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Enum": "LightingStyle"
           },
@@ -43751,7 +43783,7 @@
         },
         "PrioritizeLightingQuality": {
           "Name": "PrioritizeLightingQuality",
-          "Scriptability": "Read",
+          "Scriptability": "ReadWrite",
           "DataType": {
             "Value": "Bool"
           },
@@ -68563,27 +68595,6 @@
         }
       }
     },
-    "SnippetService": {
-      "Name": "SnippetService",
-      "Tags": [
-        "NotCreatable",
-        "NotReplicated",
-        "Service"
-      ],
-      "Superclass": "Instance",
-      "Properties": {},
-      "DefaultProperties": {
-        "Archivable": {
-          "Bool": true
-        },
-        "HistoryId": {
-          "UniqueId": "00000000000000000000000000000000"
-        },
-        "UniqueId": {
-          "UniqueId": "00000000000000000000000000000000"
-        }
-      }
-    },
     "SocialService": {
       "Name": "SocialService",
       "Tags": [
@@ -78569,6 +78580,19 @@
             }
           }
         },
+        "ReservedServerId": {
+          "Name": "ReservedServerId",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "String"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        },
         "ServerInstanceId": {
           "Name": "ServerInstanceId",
           "Scriptability": "ReadWrite",
@@ -78594,6 +78618,19 @@
               "Serialization": "Serializes"
             }
           }
+        },
+        "VipServerId": {
+          "Name": "VipServerId",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "String"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
         }
       },
       "DefaultProperties": {
@@ -78610,6 +78647,9 @@
           "UniqueId": "00000000000000000000000000000000"
         },
         "ReservedServerAccessCode": {
+          "String": ""
+        },
+        "ReservedServerId": {
           "String": ""
         },
         "Sandboxed": {
@@ -78629,6 +78669,9 @@
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
+        },
+        "VipServerId": {
+          "String": ""
         }
       }
     },
@@ -95860,6 +95903,23 @@
             }
           }
         },
+        "StreamingEnabledStorage": {
+          "Name": "StreamingEnabledStorage",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden",
+            "NotReplicated",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "StreamingIntegrityMode": {
           "Name": "StreamingIntegrityMode",
           "Scriptability": "None",
@@ -96592,7 +96652,8 @@
           },
           "Tags": [
             "Hidden",
-            "NotReplicated"
+            "NotReplicated",
+            "ReadOnly"
           ],
           "Kind": {
             "Canonical": {
@@ -100849,12 +100910,6 @@
         "Main": 0
       }
     },
-    "Language": {
-      "name": "Language",
-      "items": {
-        "Default": 0
-      }
-    },
     "LeftRight": {
       "name": "LeftRight",
       "items": {
@@ -103291,6 +103346,7 @@
       "items": {
         "Teleport": 7,
         "TeleportPartyAsync": 3,
+        "TeleportSwitchServer": 8,
         "TeleportToInstanceBack": 5,
         "TeleportToPlaceInstance": 1,
         "TeleportToPrivateServer": 2,
