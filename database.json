@@ -1,9 +1,9 @@
 {
   "Version": [
     0,
-    740,
+    741,
     19,
-    7400003
+    7411056
   ],
   "Classes": {
     "Accessory": {
@@ -69,6 +69,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -258,6 +261,9 @@
             1.0
           ]
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -431,6 +437,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -551,6 +560,9 @@
         },
         "Scale": {
           "Float32": 1.0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SlimHash": {
           "SharedString": ""
@@ -790,6 +802,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -1057,6 +1072,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -1314,6 +1332,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -1540,6 +1561,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -1686,6 +1710,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -1890,6 +1917,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -2257,6 +2287,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -2318,6 +2351,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -2352,6 +2388,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -2414,6 +2453,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -2555,6 +2597,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -2703,6 +2748,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -3066,6 +3114,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -3097,6 +3148,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -3452,6 +3506,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -3997,6 +4054,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -4280,6 +4340,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -4436,6 +4499,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -4500,6 +4566,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -4763,6 +4832,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -4857,6 +4929,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -4912,6 +4987,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -4960,6 +5038,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -5057,6 +5138,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -5198,6 +5282,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -5420,6 +5507,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -5468,6 +5558,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -5533,6 +5626,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -5659,6 +5755,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -5887,6 +5986,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SimulationFidelity": {
           "Enum": 1
         },
@@ -6021,6 +6123,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -6082,6 +6187,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -6214,6 +6322,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -6310,6 +6421,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -6426,6 +6540,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -6527,6 +6644,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -6717,6 +6837,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SimulationFidelity": {
           "Enum": 1
         },
@@ -6817,6 +6940,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -7096,6 +7222,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -7168,6 +7297,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -7407,6 +7539,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -7624,6 +7759,21 @@
             }
           }
         },
+        "Locale": {
+          "Name": "Locale",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "String"
+          },
+          "Tags": [
+            "Hidden"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
         "Text": {
           "Name": "Text",
           "Scriptability": "ReadWrite",
@@ -7687,6 +7837,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -7898,6 +8051,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -8049,6 +8205,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shape": {
           "Float32": 0.0
         },
@@ -8166,6 +8325,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -8793,6 +8955,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -9198,6 +9363,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -9582,6 +9750,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -10146,6 +10317,9 @@
         "ScaleMode": {
           "Enum": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -10685,6 +10859,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -10778,6 +10955,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SingleColliderSize": {
           "Vector3": [
@@ -10896,6 +11076,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -10945,11 +11128,76 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
         "Tags": {
           "Tags": []
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "BackendReplicatedStorage": {
+      "Name": "BackendReplicatedStorage",
+      "Tags": [
+        "NotCreatable",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "BackendServerScriptService": {
+      "Name": "BackendServerScriptService",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "BackendServerStorage": {
+      "Name": "BackendServerStorage",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -10976,6 +11224,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -11237,6 +11488,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -13279,6 +13533,9 @@
         "Segments": {
           "Int32": 10
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -13724,6 +13981,9 @@
         "SelectionGroup": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "UDim2": [
             [
@@ -13808,6 +14068,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -13843,6 +14106,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -13874,6 +14140,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -13929,6 +14198,9 @@
             1.0,
             1.0
           ]
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -14015,6 +14287,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Float32": 24.0
         },
@@ -14069,6 +14344,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Size": {
           "Float32": 24.0
@@ -14195,6 +14473,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -14420,6 +14701,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -14497,6 +14781,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -14656,6 +14943,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -14789,6 +15079,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -14929,6 +15222,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -15035,6 +15331,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -15152,6 +15451,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -15266,6 +15568,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -15314,6 +15619,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -15415,6 +15723,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Shading": {
           "Enum": 0
@@ -15709,6 +16020,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -16028,6 +16342,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -16155,6 +16472,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -16259,6 +16579,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -16310,6 +16633,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -16370,6 +16696,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -16748,6 +17077,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -16921,6 +17253,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Sink": {
           "Enum": 0
@@ -17228,6 +17563,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -17460,6 +17798,9 @@
             1.0
           ]
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -17645,6 +17986,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -17747,6 +18091,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -18079,6 +18426,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -18392,6 +18742,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -18606,6 +18959,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -18688,6 +19044,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -18832,6 +19191,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -19097,6 +19459,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -19329,6 +19694,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -19374,6 +19742,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -19479,6 +19850,9 @@
         "Saturation": {
           "Float32": 0.0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -19534,6 +19908,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -19606,6 +19983,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -19735,6 +20115,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -19872,6 +20255,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shading": {
           "Enum": 0
         },
@@ -19986,6 +20372,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -20235,6 +20624,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -20298,6 +20690,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -20553,6 +20948,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -20745,6 +21143,9 @@
         "SensorMode": {
           "Enum": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -20822,6 +21223,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -21226,6 +21630,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             2.0,
@@ -21358,6 +21765,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -21412,6 +21822,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -21459,6 +21872,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -21647,6 +22063,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shading": {
           "Enum": 0
         },
@@ -21722,6 +22141,9 @@
             1.0,
             1.0
           ]
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -22051,6 +22473,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "ServoMaxForce": {
           "Float32": 0.0
@@ -23146,6 +23571,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -23238,6 +23666,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -24104,8 +24535,7 @@
             "Value": "Content"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -24437,6 +24867,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -24624,6 +25057,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -24869,6 +25305,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -24975,6 +25414,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -25897,6 +26339,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Side": {
           "Enum": 0
         },
@@ -26063,6 +26508,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -26213,6 +26661,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -26794,6 +27245,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -27260,6 +27714,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -27580,6 +28037,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -27628,6 +28088,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -27807,6 +28270,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -28205,6 +28671,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -29121,6 +29590,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -29573,6 +30045,9 @@
             1.0
           ]
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -29806,6 +30281,9 @@
             0.21568629
           ]
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Float32": 5.0
         },
@@ -29945,6 +30423,9 @@
         },
         "Scale": {
           "Float32": 1.0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SlimHash": {
           "SharedString": ""
@@ -30186,6 +30667,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shape": {
           "Enum": 1
         },
@@ -30328,6 +30812,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -30392,6 +30879,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -30545,6 +31035,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -30650,6 +31143,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -30686,6 +31182,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -30756,6 +31255,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -30801,6 +31303,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -31008,6 +31513,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Sink": {
           "Enum": 0
         },
@@ -31074,6 +31582,272 @@
       ],
       "Superclass": "Instance",
       "Properties": {},
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "FriendsCallingInstance": {
+      "Name": "FriendsCallingInstance",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "CallId": {
+          "Name": "CallId",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "String"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "ConversationId": {
+          "Name": "ConversationId",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "EndReason": {
+          "Name": "EndReason",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "FriendsCallingEndReason"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "InitiatorUserId": {
+          "Name": "InitiatorUserId",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "IsDeafened": {
+          "Name": "IsDeafened",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "Phase": {
+          "Name": "Phase",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "FriendsCallingPhase"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "Volume": {
+          "Name": "Volume",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "FriendsCallingParticipant": {
+      "Name": "FriendsCallingParticipant",
+      "Tags": [
+        "NotCreatable",
+        "NotReplicated"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "Error": {
+          "Name": "Error",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "FriendsCallingParticipantErrors"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "IsLocalMuted": {
+          "Name": "IsLocalMuted",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "IsSpeaking": {
+          "Name": "IsSpeaking",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "LeaveReason": {
+          "Name": "LeaveReason",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "FriendsCallingParticipantLeaveReason"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "Status": {
+          "Name": "Status",
+          "Scriptability": "None",
+          "DataType": {
+            "Enum": "FriendsCallingParticipantStatus"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "UserId": {
+          "Name": "UserId",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Int64"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "Volume": {
+          "Name": "Volume",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Float32"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        }
+      },
       "DefaultProperties": {
         "Archivable": {
           "Bool": true
@@ -31213,6 +31987,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -31247,6 +32024,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -31359,6 +32139,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -31754,6 +32537,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -31979,6 +32765,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -32726,6 +33515,9 @@
         },
         "SelectionGroup": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -33641,6 +34433,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -33919,6 +34714,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -34061,6 +34859,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -34168,6 +34969,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -34321,6 +35125,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -34501,6 +35308,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -34771,6 +35581,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ServoMaxTorque": {
           "Float32": 0.0
         },
@@ -34820,6 +35633,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -34865,6 +35681,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -35041,6 +35860,9 @@
         "Scale": {
           "Float32": 1.0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SlimHash": {
           "SharedString": ""
         },
@@ -35140,6 +35962,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -36064,6 +36889,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -36101,6 +36929,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -36820,6 +37651,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Shirt": {
           "Int64": 0
@@ -39201,6 +40035,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -39521,6 +40358,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SmoothTime": {
           "Float32": 0.05
         },
@@ -39741,8 +40581,7 @@
             "Value": "Content"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -39995,6 +40834,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Sink": {
           "Enum": 1
         },
@@ -40170,6 +41012,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector2": [
             1.0,
@@ -40331,8 +41176,7 @@
             "Value": "Content"
           },
           "Tags": [
-            "NotReplicated",
-            "ReadOnly"
+            "NotReplicated"
           ],
           "Kind": {
             "Canonical": {
@@ -40538,6 +41382,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Sink": {
           "Enum": 0
@@ -40926,6 +41773,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -41227,6 +42077,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Sink": {
           "Enum": 0
@@ -41641,6 +42494,9 @@
         "SecondaryModifier": {
           "Enum": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -41737,6 +42593,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Sink": {
           "Bool": false
@@ -41881,6 +42740,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -42431,6 +43293,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -42479,6 +43344,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -42902,6 +43770,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             4.0,
@@ -43212,6 +44083,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -43260,6 +44134,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -43323,6 +44200,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -43947,6 +44827,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ShadowSoftness": {
           "Float32": 0.5
         },
@@ -44072,6 +44955,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -44175,6 +45061,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SizeRelativeOffset": {
           "Vector3": [
@@ -44474,6 +45363,9 @@
             0.0
           ]
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -44646,6 +45538,9 @@
         },
         "ScriptGuid": {
           "String": ""
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Source": {
           "String": ""
@@ -44899,6 +45794,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -45013,6 +45911,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -45264,6 +46165,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -45563,6 +46467,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -45759,6 +46666,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -45847,6 +46757,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -45957,6 +46870,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -46021,6 +46937,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -47028,6 +47947,9 @@
         "SandstoneName": {
           "String": "Sandstone"
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SlateName": {
           "String": "Slate"
         },
@@ -47412,6 +48334,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -47572,6 +48497,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -48439,6 +49367,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             4.0,
@@ -48545,6 +49476,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -48831,6 +49765,9 @@
         "Script": {
           "String": ""
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -48885,6 +49822,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -49240,6 +50180,9 @@
         "Scale": {
           "Float32": 1.0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SlimHash": {
           "SharedString": ""
         },
@@ -49366,6 +50309,9 @@
         },
         "ScriptGuid": {
           "String": ""
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Source": {
           "String": ""
@@ -49540,6 +50486,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -49732,6 +50681,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -49774,6 +50726,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -50356,6 +51311,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             4.0,
@@ -50878,6 +51836,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -50957,6 +51918,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -51096,6 +52060,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -51147,6 +52114,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -51241,6 +52211,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -51320,6 +52293,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -51351,6 +52327,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -51907,6 +52886,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ShellPackagesCount": {
           "Int32": 0
         },
@@ -52018,6 +53000,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -52133,6 +53118,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -52400,6 +53388,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Shape": {
           "Enum": 1
@@ -52988,6 +53979,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             4.0,
@@ -53124,6 +54118,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -53777,6 +54774,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shape": {
           "Enum": 0
         },
@@ -54160,6 +55160,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -54203,6 +55206,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -54295,6 +55301,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -54359,6 +55368,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -54602,6 +55614,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -54636,6 +55651,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -55453,6 +56471,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -55555,6 +56576,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -55595,6 +56619,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -57081,6 +58108,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -57246,6 +58276,9 @@
           "Bool": false
         },
         "SerializedEmulatedPolicyInfo": {
+          "BinaryString": ""
+        },
+        "SerializedOverrides": {
           "BinaryString": ""
         },
         "SourceAssetId": {
@@ -57752,6 +58785,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -58095,6 +59131,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -58697,6 +59736,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shadows": {
           "Bool": false
         },
@@ -58888,6 +59930,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -59018,6 +60063,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -59076,6 +60124,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "ServoMaxForce": {
           "Float32": 0.0
@@ -59264,6 +60315,9 @@
         "Scale": {
           "Float32": 1.0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             12.0,
@@ -59312,11 +60366,51 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
         "Tags": {
           "Tags": []
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "ProjectService": {
+      "Name": "ProjectService",
+      "Tags": [
+        "NotCreatable",
+        "Service"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "ContentMap": {
+          "Name": "ContentMap",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "NetAssetRef"
+          },
+          "Tags": [
+            "Hidden",
+            "NotScriptable"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -59576,6 +60670,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -59668,6 +60765,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -59816,6 +60916,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Shading": {
           "Enum": 0
@@ -60030,6 +61133,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -60145,6 +61251,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -60217,6 +61326,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -60248,6 +61360,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -60395,6 +61510,9 @@
         "ScriptContext": {
           "String": ""
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ServerOnly": {
           "Bool": false
         },
@@ -60444,6 +61562,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -60509,6 +61630,9 @@
         },
         "ScriptContext": {
           "String": ""
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "ServerOnly": {
           "Bool": false
@@ -60590,6 +61714,9 @@
         "ScriptContext": {
           "String": ""
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ServerOnly": {
           "Bool": false
         },
@@ -60637,6 +61764,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -60669,6 +61799,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -60700,6 +61833,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -60994,6 +62130,9 @@
         "ScriptContext": {
           "String": ""
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ServerOnly": {
           "Bool": false
         },
@@ -61041,6 +62180,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -61072,6 +62214,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -61206,6 +62351,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -61237,6 +62385,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -61746,6 +62897,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ShouldSkip": {
           "Bool": false
         },
@@ -61790,6 +62944,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -61824,6 +62981,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -61962,6 +63122,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -62039,6 +63202,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -62136,6 +63302,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -62368,6 +63537,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -62521,6 +63693,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -62892,6 +64067,9 @@
         "SecondSharedString": {
           "SharedString": ""
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -62939,6 +64117,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -63510,6 +64691,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -63620,6 +64804,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -63711,6 +64898,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -63804,6 +64994,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -63868,6 +65061,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -64286,6 +65482,9 @@
         "SelectionGroup": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -64534,6 +65733,9 @@
         },
         "ScriptGuid": {
           "String": ""
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Source": {
           "String": ""
@@ -64972,6 +66174,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -65545,6 +66750,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Sink": {
           "Enum": 0
         },
@@ -65822,6 +67030,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shape": {
           "Enum": 1
         },
@@ -65990,6 +67201,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -66103,6 +67317,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -66231,6 +67448,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -66298,6 +67518,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -66387,6 +67610,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -66506,6 +67732,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -66582,6 +67811,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -66617,6 +67849,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -66702,6 +67937,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -66833,6 +68071,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ShirtTemplate": {
           "ContentId": ""
         },
@@ -66918,6 +68159,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -66982,6 +68226,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -67282,6 +68529,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shape": {
           "Enum": 1
         },
@@ -67370,6 +68620,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SkinColor": {
           "BrickColor": 226
@@ -67730,6 +68983,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SkyboxBackContent": {
           "Content": {
@@ -68468,6 +69724,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Float32": 1.0
         },
@@ -68583,6 +69842,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -69238,6 +70500,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -69335,6 +70600,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -69670,6 +70938,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -69800,6 +71071,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -70098,6 +71372,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shape": {
           "Enum": 1
         },
@@ -70219,6 +71496,9 @@
             1.0
           ]
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -70329,6 +71609,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Shading": {
           "Enum": 0
@@ -70442,6 +71725,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Shadows": {
           "Bool": false
@@ -70654,6 +71940,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -70870,6 +72159,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -70965,6 +72257,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -70996,6 +72291,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -71177,6 +72475,9 @@
         "ScreenOrientation": {
           "Enum": 2
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ShowDevelopmentGui": {
           "Bool": true
         },
@@ -71217,6 +72518,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -71536,166 +72840,6 @@
             }
           }
         },
-        "GameSettingsAssetIDFace": {
-          "Name": "GameSettingsAssetIDFace",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsAssetIDHead": {
-          "Name": "GameSettingsAssetIDHead",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsAssetIDLeftArm": {
-          "Name": "GameSettingsAssetIDLeftArm",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsAssetIDLeftLeg": {
-          "Name": "GameSettingsAssetIDLeftLeg",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsAssetIDPants": {
-          "Name": "GameSettingsAssetIDPants",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsAssetIDRightArm": {
-          "Name": "GameSettingsAssetIDRightArm",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsAssetIDRightLeg": {
-          "Name": "GameSettingsAssetIDRightLeg",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsAssetIDShirt": {
-          "Name": "GameSettingsAssetIDShirt",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsAssetIDTeeShirt": {
-          "Name": "GameSettingsAssetIDTeeShirt",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsAssetIDTorso": {
-          "Name": "GameSettingsAssetIDTorso",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "Int64"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
         "GameSettingsAvatar": {
           "Name": "GameSettingsAvatar",
           "Scriptability": "None",
@@ -71716,86 +72860,6 @@
           "Scriptability": "None",
           "DataType": {
             "Enum": "R15CollisionType"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsScaleRangeBodyType": {
-          "Name": "GameSettingsScaleRangeBodyType",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "NumberRange"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsScaleRangeHead": {
-          "Name": "GameSettingsScaleRangeHead",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "NumberRange"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsScaleRangeHeight": {
-          "Name": "GameSettingsScaleRangeHeight",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "NumberRange"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsScaleRangeProportion": {
-          "Name": "GameSettingsScaleRangeProportion",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "NumberRange"
-          },
-          "Tags": [
-            "Hidden",
-            "NotReplicated"
-          ],
-          "Kind": {
-            "Canonical": {
-              "Serialization": "Serializes"
-            }
-          }
-        },
-        "GameSettingsScaleRangeWidth": {
-          "Name": "GameSettingsScaleRangeWidth",
-          "Scriptability": "None",
-          "DataType": {
-            "Value": "NumberRange"
           },
           "Tags": [
             "Hidden",
@@ -72008,71 +73072,11 @@
         "EnableMouseLockOption": {
           "Bool": true
         },
-        "GameSettingsAssetIDFace": {
-          "Int64": 0
-        },
-        "GameSettingsAssetIDHead": {
-          "Int64": 0
-        },
-        "GameSettingsAssetIDLeftArm": {
-          "Int64": 0
-        },
-        "GameSettingsAssetIDLeftLeg": {
-          "Int64": 0
-        },
-        "GameSettingsAssetIDPants": {
-          "Int64": 0
-        },
-        "GameSettingsAssetIDRightArm": {
-          "Int64": 0
-        },
-        "GameSettingsAssetIDRightLeg": {
-          "Int64": 0
-        },
-        "GameSettingsAssetIDShirt": {
-          "Int64": 0
-        },
-        "GameSettingsAssetIDTeeShirt": {
-          "Int64": 0
-        },
-        "GameSettingsAssetIDTorso": {
-          "Int64": 0
-        },
         "GameSettingsAvatar": {
           "Enum": 1
         },
         "GameSettingsR15Collision": {
           "Enum": 0
-        },
-        "GameSettingsScaleRangeBodyType": {
-          "NumberRange": [
-            0.0,
-            1.0
-          ]
-        },
-        "GameSettingsScaleRangeHead": {
-          "NumberRange": [
-            0.95,
-            1.0
-          ]
-        },
-        "GameSettingsScaleRangeHeight": {
-          "NumberRange": [
-            0.9,
-            1.05
-          ]
-        },
-        "GameSettingsScaleRangeProportion": {
-          "NumberRange": [
-            0.0,
-            1.0
-          ]
-        },
-        "GameSettingsScaleRangeWidth": {
-          "NumberRange": [
-            0.7,
-            1.0
-          ]
         },
         "HealthDisplayDistance": {
           "Float32": 100.0
@@ -72097,6 +73101,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -72134,6 +73141,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -72276,6 +73286,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -72813,6 +73826,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -75926,6 +76942,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -76658,6 +77677,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -76703,6 +77725,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -76884,6 +77909,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -77034,6 +78062,9 @@
         "Selector": {
           "String": ""
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -77065,6 +78096,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -77151,6 +78185,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -77462,6 +78499,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -77712,6 +78752,9 @@
         "SelectionGroup": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SizingMode": {
           "Enum": 0
         },
@@ -77877,6 +78920,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Shadows": {
           "Bool": false
         },
@@ -77932,6 +78978,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -78060,6 +79109,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -78362,6 +79414,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -78477,6 +79532,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -78655,6 +79713,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ServerInstanceId": {
           "String": ""
         },
@@ -78715,6 +79776,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -79341,7 +80405,7 @@
           "String": ""
         },
         "Materials": {
-          "SharedString": ""
+          "SharedString": "AQAAABUAAAACAAAAan8/AAUAAAAAAAADAAAAP39rIAMAAAAAAAAEAAAAf2Y/MAMAAAAAAAAFAAAAilY+UAMAAAAAAAAGAAAAj35fEAUAAAAAAAAHAAAAi21PEAIAAAAAAAAIAAAAZmxvgAMAAAAAAAAJAAAAZbDqEAYAAAAAAAAKAAAAw8faMAUAAAAAAAALAAAAiVpHkAMAAAAAAAAMAAAAOi4kQAUAAAAAAAANAAAAHh4lFAMAAAAAAAAOAAAAZlw7UAUAAAAAAAAPAAAA6JxKJAMAAAAAAAAQAAAAc3trYAUAAAAAAAARAAAAhHtacAMAAAAAAAASAAAAgcLgAAYAAAAAAAATAAAAc4RKBAUAAAAAAAAUAAAAxr21cAUAAAAAAAAVAAAAzq2UNAMAAAAAAAAWAAAAlJSMRAMAAAAAAAA="
         },
         "PhysicsGrid": {
           "BinaryString": "AgMAAAAAAAAAAAAAAAA="
@@ -79399,6 +80463,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Size": {
           "Vector3": [
@@ -79752,6 +80819,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -79935,6 +81005,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SmoothGrid": {
           "BinaryString": "AQU="
         },
@@ -80008,6 +81081,22 @@
           "Kind": {
             "Canonical": {
               "Serialization": "Serializes"
+            }
+          }
+        },
+        "Enabled": {
+          "Name": "Enabled",
+          "Scriptability": "Read",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "NotReplicated",
+            "ReadOnly"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
             }
           }
         },
@@ -80200,6 +81289,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SimulateSecondsLag": {
           "Float64": 0.0
@@ -81027,6 +82119,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ShowNativeInput": {
           "Bool": true
         },
@@ -81696,6 +82791,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Sink": {
           "Enum": 1
         },
@@ -81846,6 +82944,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -82032,6 +83133,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Sink": {
           "Enum": 0
         },
@@ -82156,6 +83260,9 @@
         "SecondaryAlias": {
           "String": ""
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -82252,6 +83359,21 @@
         },
         "IsHiddenMessage": {
           "Name": "IsHiddenMessage",
+          "Scriptability": "None",
+          "DataType": {
+            "Value": "Bool"
+          },
+          "Tags": [
+            "Hidden"
+          ],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "DoesNotSerialize"
+            }
+          }
+        },
+        "IsHistorical": {
+          "Name": "IsHistorical",
           "Scriptability": "None",
           "DataType": {
             "Value": "Bool"
@@ -82597,6 +83719,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -82787,11 +83912,68 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
         "Tags": {
           "Tags": []
+        },
+        "UniqueId": {
+          "UniqueId": "00000000000000000000000000000000"
+        }
+      }
+    },
+    "TextDocument": {
+      "Name": "TextDocument",
+      "Tags": [
+        "NotBrowsable"
+      ],
+      "Superclass": "Instance",
+      "Properties": {
+        "TextContent": {
+          "Name": "TextContent",
+          "Scriptability": "ReadWrite",
+          "DataType": {
+            "Value": "Content"
+          },
+          "Tags": [],
+          "Kind": {
+            "Canonical": {
+              "Serialization": "Serializes"
+            }
+          }
+        }
+      },
+      "DefaultProperties": {
+        "Archivable": {
+          "Bool": true
+        },
+        "Attributes": {
+          "Attributes": {}
+        },
+        "Capabilities": {
+          "SecurityCapabilities": 0
+        },
+        "HistoryId": {
+          "UniqueId": "00000000000000000000000000000000"
+        },
+        "Sandboxed": {
+          "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
+        "SourceAssetId": {
+          "Int64": -1
+        },
+        "Tags": {
+          "Tags": []
+        },
+        "TextContent": {
+          "Content": "None"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -82947,6 +84129,9 @@
         },
         "Seed": {
           "Int32": 0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -83523,6 +84708,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Sink": {
           "Enum": 0
         },
@@ -83838,6 +85026,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -84126,6 +85317,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -84408,6 +85602,9 @@
         "Scale": {
           "Float32": 1.0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SlimHash": {
           "SharedString": ""
         },
@@ -84487,6 +85684,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -84697,6 +85897,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -84756,6 +85959,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -85231,6 +86437,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -85395,6 +86604,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -85873,6 +87085,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             2.0,
@@ -85975,6 +87190,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -86047,6 +87265,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -86081,6 +87302,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -86183,6 +87407,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -86362,6 +87589,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -86794,6 +88024,9 @@
         "SelectionModeRotateSpeed": {
           "Float32": 90.0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -86911,6 +88144,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "ShrinkRatio": {
           "Float32": 0.0
@@ -87095,6 +88331,9 @@
         "Scale": {
           "Float32": 1.0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -87266,6 +88505,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SortOrder": {
           "Enum": 0
@@ -87532,6 +88774,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SortOrder": {
           "Enum": 0
         },
@@ -87652,6 +88897,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -87849,6 +89097,9 @@
         "ScrollWheelInputEnabled": {
           "Bool": true
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SortOrder": {
           "Enum": 0
         },
@@ -87909,6 +89160,9 @@
         },
         "Scale": {
           "Float32": 1.0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -88107,6 +89361,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ShowBehindParent": {
           "Bool": true
         },
@@ -88198,6 +89455,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -88387,6 +89647,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -88511,6 +89774,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SortOrder": {
           "Enum": 0
         },
@@ -88581,6 +89847,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -88837,6 +90106,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             4.0,
@@ -89025,6 +90297,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -89059,6 +90334,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -89114,6 +90392,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -91044,6 +92325,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -91164,6 +92448,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -91198,6 +92485,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -91244,6 +92534,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -91343,6 +92636,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -91377,6 +92673,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -91747,6 +93046,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             4.0,
@@ -91943,6 +93245,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -92105,6 +93410,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -92398,6 +93706,9 @@
         },
         "SelectionOrder": {
           "Int32": 0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "Sink": {
           "Enum": 0
@@ -92833,6 +94144,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Sink": {
           "Enum": 0
         },
@@ -93120,6 +94434,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -93207,6 +94524,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -93241,6 +94561,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -93340,6 +94663,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -93651,6 +94977,9 @@
         "SelectionOrder": {
           "Int32": 0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Sink": {
           "Enum": 0
         },
@@ -93735,6 +95064,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -93873,6 +95205,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -93940,6 +95275,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -94018,6 +95356,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -94205,6 +95546,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -94534,6 +95878,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "Size": {
           "Vector3": [
             4.0,
@@ -94665,6 +96012,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -94871,6 +96221,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -94996,6 +96349,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -95106,6 +96462,9 @@
             1.0,
             1.0
           ]
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SizeRelativeOffset": {
           "Vector3": [
@@ -96342,6 +97701,9 @@
         "Scale": {
           "Float32": 1.0
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SignalBehavior": {
           "Enum": 0
         },
@@ -96557,6 +97919,9 @@
         },
         "Scale": {
           "Float32": 1.0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SimulationRate": {
           "Float32": 1.0
@@ -96848,6 +98213,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -97252,6 +98620,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ShrinkFactor": {
           "Float32": 0.0
         },
@@ -97405,6 +98776,9 @@
         "Sandboxed": {
           "Bool": false
         },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SourceAssetId": {
           "Int64": -1
         },
@@ -97485,6 +98859,9 @@
         },
         "Sandboxed": {
           "Bool": false
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         },
         "SourceAssetId": {
           "Int64": -1
@@ -100092,6 +101469,63 @@
         "Unknown": 0
       }
     },
+    "FriendsCallingEndReason": {
+      "name": "FriendsCallingEndReason",
+      "items": {
+        "Canceled": 6,
+        "Declined": 4,
+        "Failed": 5,
+        "LocalHangup": 1,
+        "Missed": 3,
+        "None": 0,
+        "RemoteHangup": 2
+      }
+    },
+    "FriendsCallingParticipantErrors": {
+      "name": "FriendsCallingParticipantErrors",
+      "items": {
+        "ConnectionFailed": 2,
+        "None": 0,
+        "PermissionDenied": 4,
+        "PublishFailed": 3,
+        "Unknown": 1
+      }
+    },
+    "FriendsCallingParticipantLeaveReason": {
+      "name": "FriendsCallingParticipantLeaveReason",
+      "items": {
+        "Declined": 2,
+        "Failed": 5,
+        "Hangup": 1,
+        "Missed": 3,
+        "None": 0,
+        "Removed": 4,
+        "TimedOut": 6
+      }
+    },
+    "FriendsCallingParticipantStatus": {
+      "name": "FriendsCallingParticipantStatus",
+      "items": {
+        "Declined": 3,
+        "Ineligible": 6,
+        "Invited": 0,
+        "Joined": 2,
+        "Left": 4,
+        "Muted": 8,
+        "Removed": 5,
+        "Ringing": 1,
+        "TimedOut": 7
+      }
+    },
+    "FriendsCallingPhase": {
+      "name": "FriendsCallingPhase",
+      "items": {
+        "Active": 2,
+        "Ended": 3,
+        "Idle": 0,
+        "Ringing": 1
+      }
+    },
     "FrustumStreamingMode": {
       "name": "FrustumStreamingMode",
       "items": {
@@ -100187,6 +101621,7 @@
       "name": "GradientType",
       "items": {
         "Conical": 2,
+        "Elliptical": 3,
         "Linear": 0,
         "Radial": 1
       }
@@ -101915,6 +103350,10 @@
         "NotProcessedYet": 0,
         "PurchaseGranted": 1
       }
+    },
+    "ProjectServiceOperationResult": {
+      "name": "ProjectServiceOperationResult",
+      "items": {}
     },
     "PromptCreateAssetResult": {
       "name": "PromptCreateAssetResult",
