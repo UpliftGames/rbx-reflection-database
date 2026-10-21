@@ -5575,7 +5575,7 @@
           "Enum": 1
         },
         "Active": {
-          "Bool": true
+          "Bool": false
         },
         "Archivable": {
           "Bool": true
@@ -85639,9 +85639,7 @@
     },
     "TextChannelWindow": {
       "Name": "TextChannelWindow",
-      "Tags": [
-        "NotBrowsable"
-      ],
+      "Tags": [],
       "Superclass": "GuiObject",
       "Properties": {
         "FontFace": {
@@ -100614,9 +100612,6 @@
         },
         "UseInputSink": {
           "Enum": 0
-        },
-        "UseNewLuauTypeSolver": {
-          "Enum": 2
         },
         "ValidateEnabledProximityPrompt": {
           "Enum": 0
