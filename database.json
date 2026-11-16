@@ -19422,8 +19422,8 @@
         "MeshContent": {
           "Content": "None"
         },
-        "OverlayTextureId": {
-          "Int64": 0
+        "OverlayTextureContent": {
+          "Content": "None"
         },
         "Sandboxed": {
           "Bool": false
@@ -26472,8 +26472,8 @@
         "TextureContent": {
           "Content": "None"
         },
-        "TexturePack": {
-          "ContentId": ""
+        "TexturePackContent": {
+          "Content": "None"
         },
         "TexturePackMetadata": {
           "String": ""
@@ -46080,9 +46080,6 @@
         "Archivable": {
           "Bool": true
         },
-        "AssetId": {
-          "ContentId": ""
-        },
         "Attributes": {
           "Attributes": {}
         },
@@ -46175,6 +46172,9 @@
         },
         "ComponentIndex": {
           "Int32": -1
+        },
+        "Content": {
+          "Content": "None"
         },
         "CustomPhysicalProperties": {
           "PhysicalProperties": "Default"
@@ -47297,20 +47297,11 @@
         },
         "Attributes": {
           "Attributes": {
-            "RBX_BackupBrightness": {
-              "Float32": 1.0
-            },
-            "RBX_BackupExposureCompensation": {
-              "Float32": 0.0
-            },
-            "RBX_LightingCompatibilityMigrated": {
-              "Bool": true
-            },
             "RBX_LightingTechnologyUnifiedMigration": {
               "Bool": true
             },
             "RBX_OriginalTechnologyOnFileLoad": {
-              "Int32": 2
+              "Int32": 4
             }
           }
         },
@@ -50900,8 +50891,8 @@
         "Tags": {
           "Tags": []
         },
-        "TexturePack": {
-          "ContentId": ""
+        "TexturePackContent": {
+          "Content": "None"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -53670,9 +53661,6 @@
         "Archivable": {
           "Bool": true
         },
-        "AssetId": {
-          "ContentId": ""
-        },
         "Attributes": {
           "Attributes": {}
         },
@@ -53765,6 +53753,9 @@
         },
         "ComponentIndex": {
           "Int32": -1
+        },
+        "Content": {
+          "Content": "None"
         },
         "CustomPhysicalProperties": {
           "PhysicalProperties": "Default"
@@ -55604,8 +55595,8 @@
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
-        "PantsTemplate": {
-          "ContentId": ""
+        "PantsTemplateContent": {
+          "Content": "None"
         },
         "Sandboxed": {
           "Bool": false
@@ -56341,9 +56332,6 @@
         "Archivable": {
           "Bool": true
         },
-        "AssetId": {
-          "ContentId": ""
-        },
         "Attributes": {
           "Attributes": {}
         },
@@ -56436,6 +56424,9 @@
         },
         "ComponentIndex": {
           "Int32": -1
+        },
+        "Content": {
+          "Content": "None"
         },
         "CustomPhysicalProperties": {
           "PhysicalProperties": "Default"
@@ -71219,8 +71210,8 @@
         "SerializedOverrides": {
           "BinaryString": ""
         },
-        "ShirtTemplate": {
-          "ContentId": ""
+        "ShirtTemplateContent": {
+          "Content": "None"
         },
         "SourceAssetId": {
           "Int64": -1
@@ -71295,9 +71286,6 @@
             1.0
           ]
         },
-        "Graphic": {
-          "ContentId": ""
-        },
         "HistoryId": {
           "UniqueId": "00000000000000000000000000000000"
         },
@@ -71312,6 +71300,9 @@
         },
         "Tags": {
           "Tags": []
+        },
+        "TextureContent": {
+          "Content": "None"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -81721,8 +81712,8 @@
         "Tags": {
           "Tags": []
         },
-        "TexturePack": {
-          "ContentId": ""
+        "TexturePackContent": {
+          "Content": "None"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -84047,8 +84038,8 @@
         "Tags": {
           "Tags": []
         },
-        "TexturePack": {
-          "ContentId": ""
+        "TexturePackContent": {
+          "Content": "None"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -88744,8 +88735,8 @@
         "TextureContent": {
           "Content": "None"
         },
-        "TexturePack": {
-          "ContentId": ""
+        "TexturePackContent": {
+          "Content": "None"
         },
         "TexturePackMetadata": {
           "String": ""
@@ -93696,9 +93687,6 @@
         "Archivable": {
           "Bool": true
         },
-        "AssetId": {
-          "ContentId": ""
-        },
         "Attributes": {
           "Attributes": {}
         },
@@ -93791,6 +93779,9 @@
         },
         "ComponentIndex": {
           "Int32": -1
+        },
+        "Content": {
+          "Content": "None"
         },
         "CustomPhysicalProperties": {
           "PhysicalProperties": "Default"
@@ -102087,8 +102078,8 @@
         "Capabilities": {
           "SecurityCapabilities": 0
         },
-        "HSRAssetId": {
-          "ContentId": ""
+        "HSRContent": {
+          "Content": "None"
         },
         "HSRData": {
           "SharedString": ""
@@ -102137,8 +102128,8 @@
         "Tags": {
           "Tags": []
         },
-        "TemporaryCageMeshId": {
-          "ContentId": ""
+        "TemporaryCageMeshContent": {
+          "Content": "None"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -102497,8 +102488,8 @@
         "Enabled": {
           "Bool": true
         },
-        "HSRAssetId": {
-          "ContentId": ""
+        "HSRContent": {
+          "Content": "None"
         },
         "HSRData": {
           "SharedString": ""
@@ -102594,11 +102585,11 @@
         "TargetShaping": {
           "Float32": 0.0
         },
-        "TemporaryCageMeshId": {
-          "ContentId": ""
+        "TemporaryCageMeshContent": {
+          "Content": "None"
         },
-        "TemporaryReferenceId": {
-          "ContentId": ""
+        "TemporaryReferenceMeshContent": {
+          "Content": "None"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
@@ -102697,8 +102688,8 @@
         "Capabilities": {
           "SecurityCapabilities": 0
         },
-        "HSRAssetId": {
-          "ContentId": ""
+        "HSRContent": {
+          "Content": "None"
         },
         "HSRData": {
           "SharedString": ""
@@ -102750,8 +102741,8 @@
         "Tags": {
           "Tags": []
         },
-        "TemporaryCageMeshId": {
-          "ContentId": ""
+        "TemporaryCageMeshContent": {
+          "Content": "None"
         },
         "UniqueId": {
           "UniqueId": "00000000000000000000000000000000"
